@@ -13,6 +13,14 @@ JVM -- java虚拟机
 
 JRE -- java运行时环境包括JVM、JAVA核心类库和支持文件，若要运行java环境，下载安装JRE即可；若要开发就得使用JDK，JDK包含JRE  
 
+### java命令行运行
 
+命令行运行需要添加jdk下的bin目录路径到系统环境变量  
+
+```
+javac HelloWorld.java             # 生成.class文件 
+java HelloWorld                   # 执行程序
+
+```
 
 
