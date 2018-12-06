@@ -2,6 +2,8 @@ package main;
 
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
+import java.util.Scanner;
+
 public class RefirstDemo {
     public static void main(String[] args) {
         // byte 1个字节
@@ -15,6 +17,12 @@ public class RefirstDemo {
 
         // long 8个字节
         long l;
+
+        // 键盘输入
+        System.out.println("请输入一个String： ");
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.next();
+        System.out.println(str);
 
         // float 4个字节 数据类型需要在末尾加上 f/F
         float f = 123.456F;
