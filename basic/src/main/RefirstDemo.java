@@ -1,0 +1,74 @@
+package main;
+
+public class RefirstDemo {
+    public static void main(String[] args) {
+        // byte 1个字节
+        byte b;
+
+        // short 2个字节
+        short s;
+
+        // int 4个字节
+        int i;
+
+        // long 8个字节
+        long l;
+
+        // float 4个字节 数据类型需要在末尾加上 f/F
+        float f = 123.456F;
+        // double 8个字节 类型范围大于float
+        double d = 123.456;
+
+        double d1 = 123;
+        double d2 = 124f;
+
+        // println 换行输出
+        // System.out.print() 不换行输出
+        System.out.println("f = " + f);
+        System.out.println("d = " + d);
+        System.out.println("d1 = " + d1);
+        System.out.println("d2 = " + d2);
+
+        // 字符型，2个字节 大于65535就需要强制类型转换
+        char ch = 'a';
+        char ch3 = 97;
+        char ch2 = (char) 65536;
+        char ch1 = '\\';
+
+        System.out.println("ch = " + ch);
+        System.out.println("ch1 = " + ch1);
+        System.out.println("ch2 = " + ch2);
+        System.out.println("ch3 = " + ch3);
+
+        // Unicode
+        char c = '\u005d';
+        System.out.println("c = " + c);
+
+        // 布尔类型 1个字节
+        boolean bl = true;
+        System.out.println("bl = " + bl);
+
+        /*
+        char 中文 = '中';
+        System.out.println(中文);*/
+
+        // 科学计数法表示浮点类型
+        double d3 = 1.23E3;
+        float f2 = 1.23e5f;
+        double d4 = .5;
+        System.out.println("d3 = " + d3 +" f2 = " + f2 + " d4 = " + d4);
+
+        // 常量 final 定义 不可修改 常量名大写
+        final double PI = 3.1415;
+
+        // 自动转换
+        short a = 168;
+        int ba = a;
+        System.out.println("ba = " + ba);
+
+        // 强制类型转换 10/3 = 3 ; (float)10/3 = 3.3333333
+        System.out.println((float)10/3);
+
+
+    }
+}
