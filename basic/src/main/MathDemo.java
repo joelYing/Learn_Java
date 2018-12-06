@@ -43,6 +43,7 @@ public class MathDemo {
         int max;
         max = a1>a2?a1:a2;
         System.out.println("max = " + max);
+        
 
     }
 }
