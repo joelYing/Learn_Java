@@ -8,7 +8,7 @@ public class RefirstDemo {
         byte b;
 
         // short 2个字节
-        short s;
+        short sh;
 
         // int 4个字节
         int i;
@@ -85,6 +85,53 @@ public class RefirstDemo {
         // 强制类型转换 10/3 = 3 ; (float)10/3 = 3.3333333
         System.out.println((float)10/3);
 
+        /* 整数转字符串 用 ’整数 + ""‘的方式比整数类的toString()快
 
+          int count = 100000;
+          long t1 = System.currentTimeMillis();
+          System.out.println("");
+          for (int i = 0; i < count; i++) {
+              Integer in = new Integer(100);
+              String s1 = in.toString();
+          }
+          long t2 = System.currentTimeMillis();
+          System.out.println(" t2 - t1 " + (t2 - t1));
+          for (int i = 0; i < count; i++) {
+              String s2 = 100 + "";
+          }
+          long t3 = System.currentTimeMillis();
+
+          System.out.println(" t3 - t2 " + (t3 - t2));
+        */
+        // 任何数据类型向String转换
+        String test = "test";
+        int x = 30;
+        System.out.println(x + test);
+
+        // char 数组到 String 相互转换
+        char data[] = {'1', '2', '3'};
+        String s = new String(data);
+        System.out.println(s);
+        final char[] cs = s.toCharArray();
+        System.out.println(cs.length);
+
+        // 字符串转整型 但是两者类型不同
+        int is = Integer.parseInt("1234");
+        System.out.println(is);
+        Integer integer = Integer.valueOf("1234");
+        System.out.println(integer);
+
+        // bytes 数组与 String 相互转换
+        String bs1 = "bytes";
+        byte[] bytes = bs1.getBytes();
+        System.out.println(bytes);
+
+        // 查看返回的bytes数组中的值
+        for (byte by : bytes) {
+            System.out.println(by);
+        }
+
+        String bs2 = new String(bytes);
+        System.out.println(bs2);
     }
 }
