@@ -1,5 +1,7 @@
 package main;
 
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+
 public class RefirstDemo {
     public static void main(String[] args) {
         // byte 1个字节
@@ -65,6 +67,20 @@ public class RefirstDemo {
         short a = 168;
         int ba = a;
         System.out.println("ba = " + ba);
+
+        /* 包装类
+        作为和基本数据类型对应的类类型存在,方便涉及到对象的操作.
+        包含每种基本数据类型的相关属性如最大值、最小值等,以及相关的操作方法.
+        */
+        int imax = Integer.MAX_VALUE;
+        long lmax = Long.MAX_VALUE;
+        char cm = Character.MAX_VALUE;
+        int isize = Integer.SIZE;
+
+        System.out.println("imax: " + imax);
+        System.out.println("lmax: " + lmax);
+        System.out.println("cm: " + cm);
+        System.out.println("isize: " + isize);
 
         // 强制类型转换 10/3 = 3 ; (float)10/3 = 3.3333333
         System.out.println((float)10/3);
