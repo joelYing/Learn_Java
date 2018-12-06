@@ -37,7 +37,12 @@ public class MathDemo {
         boolean b2 = (3<2)&&((n2++)>2);
         System.out.println("b2 = " + b2 + " n2 = " + n2);
 
-
+        // 条件运算符 ? 前的条件成立时返回 a1 不成立则返回a2
+        int a1 = 10;
+        int a2 = 6;
+        int max;
+        max = a1>a2?a1:a2;
+        System.out.println("max = " + max);
 
     }
 }
