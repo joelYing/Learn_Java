@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class ProcessControlDemo {
     public static void main(String[] args) {
         // 嵌套if
-        
+
         int a = 2, b = 3;
         if (a != b) {
             if (a > b) {
@@ -84,9 +84,9 @@ public class ProcessControlDemo {
         // 随机生成大于等于0不等于10的正整数
         int number = random.nextInt(10);
         int guess;
+        Scanner scanner1 = new Scanner(System.in);
         do{
             System.out.println("\n请输入您猜测的0-9之间的数字：");
-            Scanner scanner1 = new Scanner(System.in);
             guess = scanner1.nextInt();
             if(guess > number){
                 System.out.println("有点大了");
@@ -95,5 +95,18 @@ public class ProcessControlDemo {
             }
         }while(guess != number);
         System.out.println("恭喜 答案就是 " + guess);
+
+        // for 循环 求1-1000中水仙花数有几个 “水仙花数”是指一个三位数，其各位数字立方和等于该数
+
+        int sum1 = 0, max3 = 1000;
+        for(int i =100; i < max3; i++){
+            int gw = (i%10), sw = (i/10%10), bw = (i/10/10%10);
+            int m = gw*gw*gw + sw*sw*sw + bw*bw*bw;
+            if(i == m){
+                System.out.println("水仙花数： " + m);
+                sum1++;
+            }
+        }
+        System.out.println("水仙花数共有： " + sum1 + "个");
     }
 }
