@@ -17,11 +17,17 @@ public class BasicDemo {
         // long 8个字节
         long l;
 
+        /*单引号引的数据 是char类型的
+        双引号引的数据 是String类型的*/
+
+        System.out.println('a'+'b');
+        System.out.println("a"+"b");
+
         // 键盘输入
-        /*System.out.println("请输入一个String： ");
+        System.out.println("请输入一个String： ");
         Scanner scanner = new Scanner(System.in);
         String str = scanner.next();
-        System.out.println(str);*/
+        System.out.println(str);
 
         // float 4个字节 数据类型需要在末尾加上 f/F
         float f = 123.456F;
