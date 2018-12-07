@@ -3,7 +3,7 @@ package main;
 import java.util.Scanner;
 import java.lang.*;
 
-public class RefirstDemo {
+public class BasicDemo {
     public static void main(String[] args) {
         // byte 1个字节
         byte b;
