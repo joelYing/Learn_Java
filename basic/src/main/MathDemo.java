@@ -43,6 +43,7 @@ public class MathDemo {
         int max;
         max = a1>a2?a1:a2;
         System.out.println("max = " + max);
+        
 
         /* Java 的 Math 包含了用于执行基本数学运算的属性和方法，如初等指数、对数、平方根和三角函数。
         Math 的方法都被定义为 static 形式，通过 Math 类可以在主函数中直接调用。*/
