@@ -1,6 +1,7 @@
 package main;
 
 import java.util.Scanner;
+import java.lang.*;
 
 public class RefirstDemo {
     public static void main(String[] args) {
@@ -17,10 +18,10 @@ public class RefirstDemo {
         long l;
 
         // 键盘输入
-        System.out.println("请输入一个String： ");
+        /*System.out.println("请输入一个String： ");
         Scanner scanner = new Scanner(System.in);
         String str = scanner.next();
-        System.out.println(str);
+        System.out.println(str);*/
 
         // float 4个字节 数据类型需要在末尾加上 f/F
         float f = 123.456F;
@@ -91,26 +92,17 @@ public class RefirstDemo {
         // 强制类型转换 10/3 = 3 ; (float)10/3 = 3.3333333
         System.out.println((float)10/3);
 
-        /* 整数转字符串 用 ’整数 + ""‘的方式比整数类的toString()快
+        // 整数转字符串 用 ’整数 + ""‘的方式比整数类的toString()快
 
-          int count = 100000;
-          long t1 = System.currentTimeMillis();
-          System.out.println("");
-          for (int i = 0; i < count; i++) {
-              Integer in = new Integer(100);
-              String s1 = in.toString();
-          }
-          long t2 = System.currentTimeMillis();
-          System.out.println(" t2 - t1 " + (t2 - t1));
-          for (int i = 0; i < count; i++) {
-              String s2 = 100 + "";
-          }
-          long t3 = System.currentTimeMillis();
+        // 其它数据类型转十进制 注意输入的字符串中不需要再加表示进制的前缀，如16进制不要加"0x"
+        // parseInt(String) 将string转换为整数；valueOf(String) 将string转换为Integer对象
+        System.out.println("------------------------------------");
+        int ei = Integer.valueOf("10110", 2);
+        int ei2 = Integer.parseInt("073", 8);
+        int si = Integer.parseInt("3c", 16);
 
-          System.out.println(" t3 - t2 " + (t3 - t2));
-        */
-
-        // 其它数据类型转十进制
+        System.out.println("ei = " + ei + " ei2 = " + ei2 + " si = " + si);
+        System.out.println("------------------------------------");
 
         // 任何数据类型向String转换
         String test = "test";
