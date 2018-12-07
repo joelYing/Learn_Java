@@ -109,6 +109,9 @@ public class RefirstDemo {
 
           System.out.println(" t3 - t2 " + (t3 - t2));
         */
+
+        // 其它数据类型转十进制
+
         // 任何数据类型向String转换
         String test = "test";
         int x = 30;
