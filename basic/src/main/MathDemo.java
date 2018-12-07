@@ -44,5 +44,43 @@ public class MathDemo {
         max = a1>a2?a1:a2;
         System.out.println("max = " + max);
 
+        /* Java 的 Math 包含了用于执行基本数学运算的属性和方法，如初等指数、对数、平方根和三角函数。
+        Math 的方法都被定义为 static 形式，通过 Math 类可以在主函数中直接调用。*/
+
+        int a = 6;
+        int b = 8;
+        int maxAb = Math.max(a, b);
+        int minAb = Math.min(a, b);
+        System.out.println(maxAb);
+        System.out.println(minAb);
+
+        // 进位取整 大于该数的最小整数
+        double d1 = 4.4;
+        double d2 = 4.5;
+
+        double ceil1 = Math.ceil(d1);
+        double ceil2 = Math.ceil(d2);
+
+        System.out.println(ceil1);
+        System.out.println(ceil2);
+
+        // 退位取整 小于该数的最小整数
+        double floor1 = Math.floor(d1);
+        double floor2 = Math.floor(d2);
+
+        System.out.println(floor1);
+        System.out.println(floor2);
+
+        // 四舍五入
+        double round1 = Math.round(d1);
+        double round2 = Math.round(d2);
+
+        System.out.println(round1);
+        System.out.println(round2);
+
+        // a 的 b 次幂
+        double pow = Math.pow(d1, d2);
+        System.out.println(pow);
+        
     }
 }
