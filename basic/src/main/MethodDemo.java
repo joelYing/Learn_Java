@@ -30,6 +30,19 @@ public class MethodDemo {
     }
 
 
+    /**
+     * 可变参数 必须放在方法参数中的最后一位
+     * 且可变参数所在的列表是最后被访问的，
+     * 假设有其他的重载方法，肯定先执行其他方法
+     */
+    public void sum(int... n) {
+        int sum = 0;
+        for (int as : n) {
+            sum += as;
+        }
+        System.out.println("sum = " + sum);
+    }
+
     public static void main(String[] args) {
         MethodDemo md = new MethodDemo();
 
@@ -59,6 +72,10 @@ public class MethodDemo {
          * 数据类型的参数
          */
 
+         // 可变参数
+        md.sum(1);
+        md.sum(1, 2);
+        md.sum(1, 2, 3);
     }
 
 }
