@@ -65,7 +65,7 @@ public class MathDemo {
         System.out.println(ceil1);
         System.out.println(ceil2);
 
-        // 退位取整 小于该数的最小整数
+        // 退位取整 小于该数的最大整数
         double floor1 = Math.floor(d1);
         double floor2 = Math.floor(d2);
 

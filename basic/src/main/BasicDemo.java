@@ -98,6 +98,14 @@ public class BasicDemo {
         // 强制类型转换 10/3 = 3 ; (float)10/3 = 3.3333333
         System.out.println((float)10/3);
 
+        // 这种方式 s + 1 ， 1 是整形， s 是short类型，所以结果为int类型，但是int -> short 要强制转换
+        // short s = 1;
+        // s = s + 1;
+
+        // 由于是+=操作符，在解析时候s+=1就等价于s = (short)(s+1)
+        short ss = 1;
+        ss += 1;
+
         // 整数转字符串 用 ’整数 + ""‘的方式比整数类的toString()快
 
         // 其它数据类型转十进制 注意输入的字符串中不需要再加表示进制的前缀，如16进制不要加"0x"
