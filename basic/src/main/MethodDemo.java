@@ -43,6 +43,20 @@ public class MethodDemo {
         System.out.println("sum = " + sum);
     }
 
+
+    /**
+     * 返回数组最大值
+     */
+    public static int getMax(int[] arr) {
+        int arrMax = arr[0];
+        for (int anArr : arr) {
+            if (arrMax < anArr) {
+                arrMax = anArr;
+            }
+        }
+        return arrMax;
+    }
+
     public static void main(String[] args) {
         MethodDemo md = new MethodDemo();
 
@@ -76,6 +90,12 @@ public class MethodDemo {
         md.sum(1);
         md.sum(1, 2);
         md.sum(1, 2, 3);
+
+        // 数组最大值
+        int[] arr1 = {12, 86, 79, 43, 50};
+        System.out.println(getMax(arr1));
+
+
     }
 
 }
