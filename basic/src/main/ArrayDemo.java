@@ -1,6 +1,9 @@
 package main;
 
-import java.util.*;
+import org.apache.commons.lang3.ArrayUtils;
+
+import java.util.Arrays;
+import java.util.Scanner;
 
 
 /**
@@ -41,7 +44,9 @@ public class ArrayDemo {
 
         // 字符型数组
         char[] chArray = new char[6];
-        char[] chArray2 = {'1', '2', '3'};
+        char[] chArray2 = {'5', '2', '3'};
+        int[] chArray4 = {1, 2, 3};
+        char[] chArray3 = null;
 
         // 浮点型数组 默认值 0.0
         float[] floatArray;
@@ -51,6 +56,36 @@ public class ArrayDemo {
 
         System.out.println(chArray[0] + " " + chArray[1]);
 
+        // toString
+        System.out.println("------ Array / toString ------");
+        // Arrays.toString 中括号表示，ArrayUtils 大括号表示
+        System.out.println(Arrays.toString(chArray2));
+        System.out.println(ArrayUtils.toString(chArray2));
+
+        // Arrays.toString 对 null 输出的 null，ArrayUtils 会输出空串
+        System.out.println(Arrays.toString(chArray3));
+        System.out.println(ArrayUtils.toString(chArray3));
+
+        // 填充
+        Arrays.fill(intArray, 2);
+        System.out.println(ArrayUtils.toString(intArray));
+
+        // 复制
+        char[] array2 = Arrays.copyOf(chArray2, 7);
+        System.out.println(Arrays.toString(array2));
+
+        // 排序
+        Arrays.sort(chArray2);
+        System.out.println(Arrays.toString(chArray2));
+
+        // 查找
+        int index = Arrays.binarySearch(chArray4, 3);
+        System.out.println(index);
+
+        // hashcode
+        int hashcode = Arrays.hashCode(chArray4);
+        System.out.println(hashcode);
+        System.out.println("------ Array / toString ------");
 
         // 二维数组
         int[][] arr2 = {{22,66,44},{77,33,88},{25,45,65},{11,66,99}};
