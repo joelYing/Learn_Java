@@ -1,4 +1,4 @@
-package main.classdemodictionary;
+package main.classdemopackage;
 
 /**
  * @PackageName main
@@ -17,7 +17,7 @@ public class ClassDemo {
         System.out.println(student.getAge());
         System.out.println(student.getName());
 
-        // 给私有成员变量赋值
+        // 给私有成员变量赋值 避免调用一个类的实例来访问成员变量，直接可用类来调用
         Student.setAge(18);
         student.setName("李白");
 

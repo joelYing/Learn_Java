@@ -1,4 +1,4 @@
-package main.classdemodictionary;
+package main.classdemopackage;
 
 /**
  * @PackageName main.ClassDemoDictionary
@@ -34,6 +34,8 @@ class Student {
         System.out.println("我要睡觉");
     }
 
+    /* 因为静态是随着类的加载而加载，优先于对象而存在。而this是随着对象的创建而存在 */
+
     public static void setAge(int a) {
         age = a;
     }
@@ -42,7 +44,10 @@ class Student {
         return age;
     }
 
+    // 非静态成员方法可以访问静态成员方法 ， 静态只能访问静态
+
     public void setName(String name) {
+        setAge(18);
         this.name = name;
     }
 
