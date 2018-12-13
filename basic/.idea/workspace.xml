@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/ClassDemoDictionary/ClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ClassDemoDictionary/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ClassDemoDictionary/ClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/classdemodictionary/ClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ClassDemoDictionary/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/classdemodictionary/Student.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,12 +45,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="5541" />
+          <entry key="java" value="6070" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5541" />
+          <entry key="JAVA" value="6070" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -96,29 +96,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ClassDemoDictionary/ClassDemo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/classdemodictionary/ClassDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="280">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/ClassDemoDictionary/Student.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/classdemodictionary/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="749">
+              <caret line="38" column="5" selection-start-line="36" selection-start-column="37" selection-end-line="38" selection-end-column="5" />
               <folding>
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,6 +168,8 @@
         <option value="$PROJECT_DIR$/src/main/ClassDemo.java" />
         <option value="$PROJECT_DIR$/src/main/ClassDemoDictionary/ClassDemo.java" />
         <option value="$PROJECT_DIR$/src/main/ClassDemoDictionary/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/classdemodictionary/ClassDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/classdemodictionary/Student.java" />
       </list>
     </option>
   </component>
@@ -226,7 +236,7 @@
               <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="ClassDemoDictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="classdemodictionary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic" type="b2602c69:ProjectViewProjectNode" />
@@ -247,7 +257,7 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;PSI&#9;JAVA://sun.java2d.marlin.Stroker#sOutCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544667446613" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544676901582" />
     <property name="last_opened_file_path" value="D:/learn_java/learning-java-master/example" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -279,7 +289,7 @@
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.ClassDemoDictionary.*" />
+          <option name="PATTERN" value="main.classdemodictionary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,11 +298,11 @@
       </method>
     </configuration>
     <configuration name="ClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.ClassDemoDictionary.ClassDemo" />
+      <option name="MAIN_CLASS_NAME" value="main.classdemodictionary.ClassDemo" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.ClassDemoDictionary.*" />
+          <option name="PATTERN" value="main.classdemodictionary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,7 +315,7 @@
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.ClassDemoDictionary.*" />
+          <option name="PATTERN" value="main.classdemodictionary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,7 +328,7 @@
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.ClassDemoDictionary.*" />
+          <option name="PATTERN" value="main.classdemodictionary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,7 +341,7 @@
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.ClassDemoDictionary.*" />
+          <option name="PATTERN" value="main.classdemodictionary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,12 +381,12 @@
       <workItem from="1544495290147" duration="15926000" />
       <workItem from="1544542583044" duration="4157000" />
       <workItem from="1544591541871" duration="15424000" />
-      <workItem from="1544666028271" duration="2020000" />
+      <workItem from="1544666028271" duration="5715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56819000" />
+    <option name="totallyTimeSpent" value="60514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1297" height="1393" extended-state="0" />
@@ -390,8 +400,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28398058" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928804" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37135923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -510,27 +520,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ClassDemoDictionary/ClassDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/classdemodictionary/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="749">
+          <caret line="38" column="5" selection-start-line="36" selection-start-column="37" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ClassDemoDictionary/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/main/classdemodictionary/ClassDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
