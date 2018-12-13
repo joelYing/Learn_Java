@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/joel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ExtendsDemo/ExtendsDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ExtendsDemo/ExtendsDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ExtendsDemo/ExtendsDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -281,7 +275,7 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;PSI&#9;JAVA://sun.java2d.marlin.Stroker#sOutCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544696477931" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544696953573" />
     <property name="last_opened_file_path" value="D:/learn_java/learning-java-master/example" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -309,11 +303,11 @@
   </component>
   <component name="RunManager" selected="Application.ExtendsDemo2">
     <configuration name="ExtendsDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.ExtendsDemo.ExtendsDemo1" />
+      <option name="MAIN_CLASS_NAME" value="main.extendsdemo.ExtendsDemo1" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.ExtendsDemo.*" />
+          <option name="PATTERN" value="main.extendsdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,11 +316,11 @@
       </method>
     </configuration>
     <configuration name="ExtendsDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.ExtendsDemo.ExtendsDemo2" />
+      <option name="MAIN_CLASS_NAME" value="main.extendsdemo.ExtendsDemo2" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.ExtendsDemo.*" />
+          <option name="PATTERN" value="main.extendsdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,11 +329,11 @@
       </method>
     </configuration>
     <configuration name="ExtendsDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.ExtendsDemo.ExtendsDemo3" />
+      <option name="MAIN_CLASS_NAME" value="main.extendsdemo.ExtendsDemo3" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.ExtendsDemo.*" />
+          <option name="PATTERN" value="main.extendsdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,16 +399,15 @@
       <workItem from="1544495290147" duration="15926000" />
       <workItem from="1544542583044" duration="4157000" />
       <workItem from="1544591541871" duration="15424000" />
-      <workItem from="1544666028271" duration="22590000" />
+      <workItem from="1544666028271" duration="23041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77389000" />
+    <option name="totallyTimeSpent" value="77840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1281" height="1392" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18427518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

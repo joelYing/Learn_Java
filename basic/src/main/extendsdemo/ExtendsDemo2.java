@@ -1,4 +1,4 @@
-package main.ExtendsDemo;
+package main.extendsdemo;
 
 /**
  * @PackageName main.ExtendsDemo
