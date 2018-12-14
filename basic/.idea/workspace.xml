@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/abstractpackage/AbstractDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/polymorphismpackage/DuoTaiDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/polymorphismpackage/DuoTaiDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/polymorphismpackage/DuoTaiDemo1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,25 +32,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="27" />
+          <entry key="java" value="29" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="27" />
+          <entry key="JAVA" value="29" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="11565" />
+          <entry key="java" value="12469" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11565" />
+          <entry key="JAVA" value="12469" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -88,48 +88,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-              <folding>
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/polymorphismpackage/DuoTaiDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="697">
+              <caret line="85" column="19" lean-forward="true" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
               <folding>
                 <element signature="e#969#970#0" expanded="true" />
                 <element signature="e#992#993#0" expanded="true" />
@@ -141,7 +103,37 @@
                 <element signature="e#1245#1246#0" expanded="true" />
                 <element signature="e#1285#1286#0" expanded="true" />
                 <element signature="e#1324#1325#0" expanded="true" />
+                <element signature="e#1504#1505#0" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/polymorphismpackage/DuoTaiDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/abstractpackage/AbstractDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -187,7 +179,9 @@
         <option value="$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo3.java" />
         <option value="$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo4.java" />
         <option value="$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo5.java" />
+        <option value="$PROJECT_DIR$/src/main/polymorphismpackage/DuoTaiDemo2.java" />
         <option value="$PROJECT_DIR$/src/main/polymorphismpackage/DuoTaiDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/abstractpackage/AbstractDemo1.java" />
       </list>
     </option>
   </component>
@@ -251,13 +245,6 @@
             </path>
             <path>
               <item name="basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="polymorphismpackage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -275,7 +262,7 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;PSI&#9;JAVA://sun.java2d.marlin.Stroker#sOutCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544761665760" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544767258526" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -315,12 +302,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendsDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.extendsdemo.ExtendsDemo2" />
+    <configuration name="DuoTaiDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.polymorphismpackage.DuoTaiDemo2" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.extendsdemo.*" />
+          <option name="PATTERN" value="main.polymorphismpackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,8 +315,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendsDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.extendsdemo.ExtendsDemo3" />
+    <configuration name="ExtendsDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.extendsdemo.ExtendsDemo2" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
@@ -369,18 +356,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExtendsDemo2" />
-      <item itemvalue="Application.ExtendsDemo3" />
       <item itemvalue="Application.ExtendsDemo4" />
       <item itemvalue="Application.ExtendsDemo5" />
       <item itemvalue="Application.DuoTaiDemo1" />
+      <item itemvalue="Application.DuoTaiDemo2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DuoTaiDemo1" />
+        <item itemvalue="Application.DuoTaiDemo2" />
         <item itemvalue="Application.ExtendsDemo5" />
         <item itemvalue="Application.ExtendsDemo4" />
         <item itemvalue="Application.ExtendsDemo2" />
-        <item itemvalue="Application.ExtendsDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -400,18 +387,18 @@
       <workItem from="1544542583044" duration="4157000" />
       <workItem from="1544591541871" duration="15424000" />
       <workItem from="1544666028271" duration="23192000" />
-      <workItem from="1544753896207" duration="8663000" />
+      <workItem from="1544753896207" duration="12706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86654000" />
+    <option name="totallyTimeSpent" value="90697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1281" height="1392" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18755119" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1973792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,7 +407,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928804" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21862349" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2145749" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
@@ -635,10 +615,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/polymorphismpackage/DuoTaiDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="697">
+          <caret line="85" column="19" lean-forward="true" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
           <folding>
             <element signature="e#969#970#0" expanded="true" />
             <element signature="e#992#993#0" expanded="true" />
@@ -650,7 +637,33 @@
             <element signature="e#1245#1246#0" expanded="true" />
             <element signature="e#1285#1286#0" expanded="true" />
             <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/polymorphismpackage/DuoTaiDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/abstractpackage/AbstractDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

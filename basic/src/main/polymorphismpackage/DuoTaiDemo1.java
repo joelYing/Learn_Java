@@ -74,14 +74,22 @@ class C extends B {
     public void show2(){
         System.out.println("3");
     }
+
+    public void show3() {
+        System.out.println("4");
+    }
 }
 
 class DuoTaiDemo1 {
     public static void main(String[] args) {
+        A aa = new A();
+        aa.show2();
         A a = new B();
         a.show();
         B b = new C();
         b.show();
+        // 没有向下转型前不可调用C中特有的方法
+        // b.show3();
     }
 }
 
