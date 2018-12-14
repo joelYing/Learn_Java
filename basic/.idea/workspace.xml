@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/abstractpackage/AbstractDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/interfacepackage/InterfaceDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/interfacepackage/InterfaceDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/abstractpackage/AbstractDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/abstractpackage/AbstractDemo1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/interfacepackage/InterfaceDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+            <state relative-caret-position="813">
+              <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
               <folding>
                 <element signature="e#593#594#0" expanded="true" />
                 <element signature="e#619#620#0" expanded="true" />
@@ -293,7 +288,7 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;PSI&#9;JAVA://sun.java2d.marlin.Stroker#sOutCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544778315508" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544782767199" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -418,12 +413,12 @@
       <workItem from="1544542583044" duration="4157000" />
       <workItem from="1544591541871" duration="15424000" />
       <workItem from="1544666028271" duration="23192000" />
-      <workItem from="1544753896207" duration="21627000" />
+      <workItem from="1544753896207" duration="23575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99618000" />
+    <option name="totallyTimeSpent" value="101566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1281" height="1392" extended-state="0" />
@@ -736,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/interfacepackage/InterfaceDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="813">
+          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
           <folding>
             <element signature="e#593#594#0" expanded="true" />
             <element signature="e#619#620#0" expanded="true" />
