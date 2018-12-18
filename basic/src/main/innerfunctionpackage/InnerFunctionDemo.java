@@ -1,5 +1,6 @@
 package main.innerfunctionpackage;
 
+import java.io.*;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.RoundingMode;
@@ -7,11 +8,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Random;
-import java.util.Scanner;
-import java.util.Arrays;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -34,6 +31,7 @@ public class InnerFunctionDemo {
         System.out.println("sub: " + bi1.subtract(bi2));
         System.out.println("mul: " + bi1.multiply(bi2));
         System.out.println("divi: " + bi2.divide(bi1));
+
         // 得到整数和余数 20/10 得2 余0
         BigInteger[] bis = bi2.divideAndRemainder(bi1);
         for (BigInteger s : bis) {
@@ -63,6 +61,7 @@ public class InnerFunctionDemo {
 
         BigDecimal bd7 = new BigDecimal("1.301");
         BigDecimal bd8 = new BigDecimal("100");
+
         // BigDecimal.divide 要求这个结果保留有scale个小数位，roundingMode表示的就是保留模式是什么
         System.out.println("divi: " + bd7.divide(bd8, 3, RoundingMode.CEILING));
         System.out.println("divi: " + bd7.divide(bd8, 4, RoundingMode.CEILING));
@@ -118,9 +117,9 @@ public class InnerFunctionDemo {
 
     public static void calender() {
         // Calendar:把时间分割成了一个个的年，月，日，时，分，秒等
+
         // 创建对象
         Calendar rightNow = Calendar.getInstance();
-
         // year
         int year = rightNow.get(Calendar.YEAR);
         System.out.println(year);
@@ -150,6 +149,7 @@ public class InnerFunctionDemo {
                 + (c.get(Calendar.MONTH) + 1) + "---" + c.get(Calendar.DATE));
 
         // 重写给c对象赋值
+
         c.set(2012, 3, 4);
         System.out.println(c.get(Calendar.YEAR) + "---"
                 + (c.get(Calendar.MONTH) + 1) + "---" + c.get(Calendar.DATE));
@@ -188,6 +188,7 @@ public class InnerFunctionDemo {
         System.out.println("--");
 
         // 提供加密的强随机数生成器 (RNG)，要求种子必须是不可预知的，产生非确定性输出，可用特定算法初始化
+
         SecureRandom sr1 = new SecureRandom();
         for (int i = 0; i < 10; i++) {
             System.out.println(sr1.nextInt(1000));
@@ -228,11 +229,16 @@ public class InnerFunctionDemo {
 
         int[] arr = { 1, 2, 3, 4, 5 };
         int[] arr2 = { 6, 7, 8, 9, 10 };
+
         // 数组1，数组1的复制起始位置， 数组2， 数组2的粘贴起始位置， 复制的长度
         System.arraycopy(arr, 1, arr2, 2, 3);
 
         System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(arr2));
+
+        // getenv() 方法获取指定的环境变量的值
+        Map<String, String> getenv = System.getenv();
+        System.out.println(getenv);
 
         System.out.println("-----------------------------");
     }
@@ -251,6 +257,8 @@ public class InnerFunctionDemo {
         // String 类的分割功能
         String s1 = "aa,.  \\bb,.  \\cc,.  \\";
         String[] strArray1 = s1.split(",");
+        System.out.println(Arrays.toString(strArray1));
+
         String[] strArray2 = s1.split("\\.");
         String[] strArray3 = s1.split(" ");
         String[] strArray4 = s1.split(" +");
@@ -280,17 +288,114 @@ public class InnerFunctionDemo {
 
         // 正则替换 替换 数字 为 ***
         String s5 = s4.replaceAll("\\d+", "***");
+        String s7 = s4.replaceFirst("\\d+", "***");
+
         System.out.println(s5);
+        System.out.println(s7);
 
         // Pattern Matcher的使用
         String s6 = "adf kjdf sahd kjd ksj iwi ksjd ajsdkla kkk";
         String regex = "\\b[a-z]{3}\\b";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(s6);
+
         // 取出匹配到的字符串
         while (m.find()) {
             System.out.println(m.group());
         }
+
+        // 多行分组匹配
+        String text = "<ul>\n" +
+                "<li class=\"font1\">text1</li>\n" +
+                "<li class=\"font2\">text2</li>\n" +
+                "<li class=\"font3\">text3</li>\n" +
+                "</ul>\n";
+        System.out.println(text);
+        String regex1 = "<li class=\"(.*?)\">(.*?)</li>";
+        Pattern p1 = Pattern.compile(regex1);
+        Matcher m1 = p1.matcher(text);
+
+        // group() 是取到的每一组内容 group() 取值从1开始
+        while (m1.find()) {
+            System.out.println(m1.groupCount());
+            System.out.println(m1.group());
+            System.out.println(m1.group(1));
+            System.out.println(m1.group(2));
+        }
+
+        System.out.println("-----------------------------");
+    }
+
+    public static void properties() {
+        // 打印
+        Properties p = new Properties();
+        p.put("prop1", "value1");
+        p.put("prop2", "value2");
+        p.put("prop3", "value3");
+        p.list(System.out);
+
+        // 保存
+        File output = new File("data/test.properties");
+        try {
+            p.store(new FileOutputStream(output), "Comment");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // 读取
+//        Properties loadProperties = new Properties();
+        File input = new File("data/test.properties");
+        try {
+            p.load(new FileInputStream(input));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("-----------------------------");
+    }
+
+    public static void runtime() {
+        Runtime rt = Runtime.getRuntime();
+
+        // 获取可用CPU数
+        int cpus = rt.availableProcessors();
+        System.out.println(cpus);
+
+        // 获取JVM试图使用的最大内存量
+        System.out.println(rt.maxMemory());
+
+        // 获取JVM空闲内存量
+        System.out.println(rt.freeMemory());
+
+        // 获取JVM内存总量
+        System.out.println(rt.totalMemory());
+
+        String s = "Runtime";
+        for (int i = 0; i < 50000; i++) {
+             s += i;
+        }
+        System.out.println("-- Memory --");
+
+        // 手动GC
+        System.out.println(rt.freeMemory());
+        System.out.println(rt.totalMemory());
+        rt.gc();
+        System.out.println(rt.freeMemory());
+        System.out.println(rt.totalMemory());
+
+        // 执行外部程序
+//        try {
+//            Process exe = rt.exec("");
+//        }catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+        // 加载外部动态库
+//        rt.load("");
 
         System.out.println("-----------------------------");
     }
@@ -303,9 +408,9 @@ public class InnerFunctionDemo {
 //        calender();
 //        random();
 //        systemdemo();
-        re();
+//        re();
+//        properties();
+//        runtime();
     }
 
 }
-
-
