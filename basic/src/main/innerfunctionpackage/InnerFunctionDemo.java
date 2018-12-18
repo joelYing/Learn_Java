@@ -11,6 +11,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Arrays;
 
 /**
  * @PackageName main.innerfunctionpackage
@@ -208,9 +209,75 @@ public class InnerFunctionDemo {
             e.printStackTrace();
         }
         System.out.println("--");
+
+        System.out.println("-----------------------------");
     }
 
-    
+    public static void systemdemo() {
+        // System 类包含一些有用的类字段和方法。它不能被实例化
+        // public static void gc():运行垃圾回收器。
+        // public static void exit(int status):终止当前正在运行的 Java 虚拟机。参数用作状态码；根据惯例，非 0 的状态码表示异常终止
+        long start = System.currentTimeMillis();
+        for (int i = 0; i < 100; i++) {
+            System.out.print(i);
+        }
+        long end = System.currentTimeMillis();
+        System.out.println("耗时： " + (end - start) + "毫秒");
+
+        int[] arr = { 1, 2, 3, 4, 5 };
+        int[] arr2 = { 6, 7, 8, 9, 10 };
+        // 数组1，数组1的复制起始位置， 数组2， 数组2的粘贴起始位置， 复制的长度
+        System.arraycopy(arr, 1, arr2, 2, 3);
+
+        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr2));
+
+        System.out.println("-----------------------------");
+    }
+
+    public static void re() {
+        // 校验QQ号
+        Scanner s = new Scanner(System.in);
+        System.out.println("输入一个QQ号： ");
+        String qq = s.nextLine();
+        if (qq.matches("[1-9][0-9]{4,14}")) {
+            System.out.println("QQ号正确");
+        }else {
+            System.out.println("QQ号不正确");
+        }
+
+        // String 类的分割功能
+        String s1 = "aa,.  \\bb,.  \\cc,.  \\";
+        String[] strArray1 = s1.split(",");
+        String[] strArray2 = s1.split("\\.");
+        String[] strArray3 = s1.split(" ");
+        String[] strArray4 = s1.split(" +");
+        String[] strArray5 = s1.split("\\\\");
+
+        for (int i = 0; i < strArray5.length; i++) {
+            String s2 = strArray5[i];
+            System.out.println(s2);
+        }
+
+        // 转换字符串 "2 3 5 1 4" -> "1 2 3 4 5"
+        String s3 = "2 3 5 1 4";
+        String[] sa = s3.split(" ");
+        int[] arr = new int[sa.length];
+        for (int i = 0; i < sa.length; i++) {
+            arr[i] = Integer.parseInt(sa[i]);
+        }
+        Arrays.sort(arr);
+        StringBuilder sb = new StringBuilder();
+        for (int anArr : arr) {
+            sb.append(anArr);
+            sb.append(" ");
+        }
+        String result = sb.toString();
+        String s4 = result.trim();
+        System.out.println(s4);
+
+        System.out.println("-----------------------------");
+    }
 
     public static void main(String[] args) throws ParseException, NoSuchAlgorithmException {
 //        biginteger();
@@ -218,7 +285,9 @@ public class InnerFunctionDemo {
 //        date();
 //        dateformat();
 //        calender();
-        random();
+//        random();
+//        systemdemo();
+        re();
     }
 
 }
