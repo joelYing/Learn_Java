@@ -3,10 +3,13 @@ package main.innerfunctionpackage;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.RoundingMode;
+import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -164,16 +167,57 @@ public class InnerFunctionDemo {
         System.out.println("-----------------------------");
     }
 
-    public static void random() {
-        
+    public static void random() throws NoSuchAlgorithmException {
+        // Math.random() 是java.util.Random 线程安全
+        for (int i = 0; i < 10; i++) {
+            System.out.println(Math.random());
+        }
+        System.out.println("--");
+
+        // 不含参的构造函数每次都使用当前时间作为种子，随机性更强
+        long seed = System.currentTimeMillis();
+        // 而含参的构造函数其实是伪随机，其随机结果固定，更有可预见性
+//        Random r2 = new Random(seed);
+        Random r1 = new Random(1000);
+        for (int i = 0; i < 10; i++) {
+            System.out.println(r1.nextInt(1000));
+        }
+        System.out.println("--");
+
+        // 提供加密的强随机数生成器 (RNG)，要求种子必须是不可预知的，产生非确定性输出，可用特定算法初始化
+        SecureRandom sr1 = new SecureRandom();
+        for (int i = 0; i < 10; i++) {
+            System.out.println(sr1.nextInt(1000));
+        }
+        System.out.println("--");
+
+//        SecureRandom sr2 = SecureRandom.getInstance("SHA1PRNG");
+//        for (int i = 0; i < 10; i++) {
+//            System.out.println(sr2.nextInt(1000));
+//        }
+//        System.out.println("--");
+
+        // 捕捉异常
+        SecureRandom sr3 = null;
+        try {
+            sr3 = SecureRandom.getInstance("SHA1PRNG");
+            for (int i = 0; i < 10; i++) {
+                System.out.println(sr3.nextInt(1000));
+            }
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        System.out.println("--");
     }
 
-    public static void main(String[] args) throws ParseException {
-        biginteger();
-        bigdecimal();
-        date();
-        dateformat();
-        calender();
+    
+
+    public static void main(String[] args) throws ParseException, NoSuchAlgorithmException {
+//        biginteger();
+//        bigdecimal();
+//        date();
+//        dateformat();
+//        calender();
         random();
     }
 
