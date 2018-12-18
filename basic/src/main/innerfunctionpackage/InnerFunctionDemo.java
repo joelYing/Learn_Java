@@ -12,6 +12,8 @@ import java.util.Date;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * @PackageName main.innerfunctionpackage
@@ -275,6 +277,20 @@ public class InnerFunctionDemo {
         String result = sb.toString();
         String s4 = result.trim();
         System.out.println(s4);
+
+        // 正则替换 替换 数字 为 ***
+        String s5 = s4.replaceAll("\\d+", "***");
+        System.out.println(s5);
+
+        // Pattern Matcher的使用
+        String s6 = "adf kjdf sahd kjd ksj iwi ksjd ajsdkla kkk";
+        String regex = "\\b[a-z]{3}\\b";
+        Pattern p = Pattern.compile(regex);
+        Matcher m = p.matcher(s6);
+        // 取出匹配到的字符串
+        while (m.find()) {
+            System.out.println(m.group());
+        }
 
         System.out.println("-----------------------------");
     }
