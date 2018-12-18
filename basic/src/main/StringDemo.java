@@ -135,7 +135,7 @@ public class StringDemo {
         String string2 = "world";
         String string3 = "hello world!哈哈";
 
-        // trim
+        // trim 去除字符串两端空格
         System.out.println("adsf".trim());
 
         // string1 > string2 为负值

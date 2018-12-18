@@ -82,6 +82,8 @@ public class MathDemo {
         // a 的 b 次幂
         double pow = Math.pow(d1, d2);
         System.out.println(pow);
-        
+
+        // public static double sqrt(double a):正平方根
+        System.out.println("sqrt:" + Math.sqrt(16));
     }
 }

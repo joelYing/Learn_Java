@@ -114,6 +114,8 @@ public class BasicDemo {
         int ei = Integer.valueOf("10110", 2);
         int ei2 = Integer.parseInt("073", 8);
         int si = Integer.parseInt("3c", 16);
+        // 十进制转其他进制
+        System.out.println(Integer.toString(100, 36));
 
         System.out.println("ei = " + ei + " ei2 = " + ei2 + " si = " + si);
         System.out.println("------------------------------------");
