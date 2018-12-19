@@ -4,71 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hankcs_hanlp_portable_1_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_whalin_Memcached_Java_Client_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_jobs_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/database/MysqlDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ArgsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArgsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/BasicDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MathDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MethodDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ObjectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObjectDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ProcessControlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProcessControlDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/abstractpackage/AbstractDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abstractpackage/AbstractDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/abstractpackage/AbstractDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abstractpackage/AbstractDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/classdemopackage/ClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classdemopackage/ClassDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/classdemopackage/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classdemopackage/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extendsdemo/ExtendsDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extendsdemo/ExtendsDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extendsdemo/ExtendsDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extendsdemo/ExtendsDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/extendsdemo/ExtendsDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extendsdemo/ExtendsDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/innerclasspackage/InnerclassDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/innerclasspackage/InnerclassDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/innerclasspackage/InnerclassDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/innerclasspackage/InnerclassDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/innerfunctionpackage/InnerFunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/innerfunctionpackage/InnerFunctionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/interfacepackage/InterfaceDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfacepackage/InterfaceDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/interfacepackage/InterfaceDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfacepackage/InterfaceDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/polymorphismpackage/DuoTaiDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphismpackage/DuoTaiDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/polymorphismpackage/DuoTaiDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphismpackage/DuoTaiDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/testpackage/StaticDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testpackage/StaticDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/testpackage/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testpackage/TestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/testpackage/TestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testpackage/TestTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="update" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,13 +48,14 @@
         <counts>
           <entry key="dummy" value="30" />
           <entry key="java" value="24891" />
+          <entry key="txt" value="6" />
           <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="24891" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="PLAIN_TEXT" value="36" />
           <entry key="XML" value="15" />
         </counts>
       </usages-collector>
@@ -155,11 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/innerfunctionpackage/InnerFunctionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="973">
-              <caret line="413" selection-start-line="413" selection-end-line="413" />
+            <state relative-caret-position="993">
+              <caret line="414" column="5" lean-forward="true" selection-start-line="414" selection-start-column="5" selection-end-line="414" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,23 +113,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/database/MysqlDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="34" column="64" lean-forward="true" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+            <state relative-caret-position="720">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -287,7 +215,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="1295" />
     <option name="height" value="1407" />
@@ -358,7 +286,7 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;PSI&#9;JAVA://sun.java2d.marlin.Stroker#sOutCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545204712217" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545205233224" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -491,18 +419,18 @@
       <workItem from="1545010908110" duration="18920000" />
       <workItem from="1545097220062" duration="23194000" />
       <workItem from="1545124394610" duration="615000" />
-      <workItem from="1545187081672" duration="5857000" />
+      <workItem from="1545187081672" duration="6362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150541000" />
+    <option name="totallyTimeSpent" value="151046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1281" height="1392" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21048321" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21048321" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -511,7 +439,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.351417" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28502023" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -540,6 +468,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -788,6 +720,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/innerfunctionpackage/InnerFunctionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="993">
+          <caret line="414" column="5" lean-forward="true" selection-start-line="414" selection-start-column="5" selection-end-line="414" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -797,18 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/database/MysqlDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="34" column="64" lean-forward="true" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/innerfunctionpackage/InnerFunctionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="973">
-          <caret line="413" selection-start-line="413" selection-end-line="413" />
+        <state relative-caret-position="720">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
