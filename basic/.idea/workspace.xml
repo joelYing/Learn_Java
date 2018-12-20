@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/config/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/database/RedisDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jdk/AtomicExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,7 +66,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="57" />
+          <entry key="java" value="58" />
           <entry key="javatest" value="1" />
           <entry key="properties" value="4" />
           <entry key="sql" value="5" />
@@ -84,7 +77,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Database Element" value="1" />
-          <entry key="JAVA" value="57" />
+          <entry key="JAVA" value="58" />
           <entry key="Properties" value="4" />
           <entry key="SQL" value="3" />
           <entry key="Scratch" value="2" />
@@ -94,7 +87,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="30" />
-          <entry key="java" value="29684" />
+          <entry key="java" value="29685" />
           <entry key="properties" value="87" />
           <entry key="sql" value="181" />
           <entry key="txt" value="10" />
@@ -103,7 +96,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="29684" />
+          <entry key="JAVA" value="29685" />
           <entry key="PLAIN_TEXT" value="40" />
           <entry key="Properties" value="87" />
           <entry key="SQL" value="181" />
@@ -185,11 +178,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jdk/AtomicExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -219,7 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/ProcessControlDemo.java" />
         <option value="$PROJECT_DIR$/src/main/FuncDemo.java" />
         <option value="$PROJECT_DIR$/src/main/MethodDemo.java" />
         <option value="$PROJECT_DIR$/src/main/ClassDemo.java" />
@@ -270,6 +271,7 @@
         <option value="$PROJECT_DIR$/src/main/java/database/RedisDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/ThreadDemo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/ThreadDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jdk/AtomicExample.java" />
       </list>
     </option>
   </component>
@@ -398,7 +400,7 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;PSI&#9;JAVA://sun.java2d.marlin.Stroker#sOutCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545299540549" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545302246555" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -534,18 +536,18 @@
       <workItem from="1545097220062" duration="23194000" />
       <workItem from="1545124394610" duration="615000" />
       <workItem from="1545187081672" duration="15174000" />
-      <workItem from="1545269543430" duration="23351000" />
+      <workItem from="1545269543430" duration="25007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183209000" />
+    <option name="totallyTimeSpent" value="184865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1281" height="1392" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21375921" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375921" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -555,7 +557,7 @@
       <window_info anchor="bottom" id="Database Console" weight="0.3592233" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902184" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40161943" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40161943" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -915,7 +917,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jdk/AtomicExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
