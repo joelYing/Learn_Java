@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.*;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
@@ -51,7 +52,11 @@ public class MysqlDemo {
             e.printStackTrace();
         }
 
-        insert(5);
+//        insert(5);
+//        batchInsert(5);
+//        transaction(5);
+//        select();
+        selectRoll();
     }
 
     public static void insert(int count) {
@@ -126,10 +131,103 @@ public class MysqlDemo {
         PreparedStatement pst = null;
         try {
             connection = DriverManager.getConnection(mysql_url, mysql_user, mysql_password);
+            // 开启事务
+            connection.setAutoCommit(false);
 
+            String sql = "INSERT INTO `java`(`time`, `title`, `timestamp`, `datetime`)VALUES(?, ?, ?, ?)";
+            pst = connection.prepareStatement(sql);
+            for (int i = 0; i < count; i++) {
+                 String titleStr = title + i;
+                 pst.setLong(1, time);
+                 pst.setString(2, titleStr);
+                 pst.setString(3, datetime);
+                 pst.setTimestamp(4, timestamp);
+                 pst.addBatch();
+            }
+            int[] executeNum = pst.executeBatch();
+            System.out.println("batch: " + executeNum.length);
+
+            // 提交
+            connection.commit();
+            System.out.println("commit=====");
+            pst.close();
+            connection.close();
+
+        } catch (SQLException e) {
+            try {
+                // 回滚 必须进行 否则会导致数据库死锁
+                connection.rollback();
+            } catch (SQLException e1) {
+                e1.printStackTrace();
+            }
+        }
+    }
+
+    public static void select() {
+        PreparedStatement pst = null;
+        ResultSet rst = null;
+        try {
+            connection = DriverManager.getConnection(mysql_url, mysql_user, mysql_password);
+
+            String sql = "SELECT * FROM `java` WHERE title LIKE ? ORDER BY id DESC LIMIT 5";
+            pst = connection.prepareStatement(sql);
+            pst.setString(1, "%insert%");
+            rst = pst.executeQuery();
+
+            while (rst.next()) {
+                System.out.println("id: " + rst.getInt(1) + ", time: " + rst.getInt(2) + ", title: " + rst.getString(3)
+                 + ", timestamp: " + rst.getString(4) + ", datetime: " + rst.getTimestamp(5));
+
+                // timestamp返回会默认补上小数点，需要处理
+                SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.y");
+                String timestamp;
+                try {
+                    timestamp = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(df.parse(rst.getString(4)));
+                    System.out.println("id:" + rst.getInt(1) + " time:" + rst.getInt(2) + " title:" + rst.getString(3)
+                            + " timestamp:" + timestamp);
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+            }
+            System.out.println("=====");
+            rst.close();
+            pst.close();
+            connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
+
+    public static void selectRoll() {
+        PreparedStatement pst = null;
+        ResultSet rst = null;
+        try {
+            // 可滚动的结果集
+            connection = DriverManager.getConnection(mysql_url, mysql_user, mysql_password);
+
+            String sql = "SELECT * FROM `java` WHERE title LIKE ? ORDER BY id DESC LIMIT 5";
+            pst = connection.prepareStatement(sql);
+            pst.setString(1, "%for%");
+            rst = pst.executeQuery();
+            while (rst.next()) {
+                System.out.println("id:" + rst.getInt(1) + " time:" + rst.getInt(2) + " title:" + rst.getString(3)
+                        + " timestamp:" + rst.getString(4) + " datetime:" + rst.getString(5));
+            }
+            System.out.println("=====");
+
+            // 移动到第二行
+            rst.absolute(2);
+            System.out.println("id:" + rst.getInt(1) + " time:" + rst.getInt(2) + " title:" + rst.getString(3)
+                    + " timestamp:" + rst.getString(4) + " datetime:" + rst.getString(5));
+            System.out.println("=====");
+            rst.close();
+            pst.close();
+            connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 
 }
