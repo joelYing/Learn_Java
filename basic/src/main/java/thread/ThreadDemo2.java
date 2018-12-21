@@ -21,6 +21,7 @@ public class ThreadDemo2 {
 //        }
 
         // 可以实现资源共享，即5个Thread共同实现一个runnable
+
         Runnable runnable = new RunnableThread();
         for (int i = 0; i < 5; i++) {
             Thread thread = new Thread(runnable);
