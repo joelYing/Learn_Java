@@ -1,6 +1,10 @@
 package jdk;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentLinkedDeque;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.SynchronousQueue;
 
 /**
  * @PackageName jdk
@@ -64,7 +68,7 @@ public class ListExample {
             System.out.println((String)objAry[i]);
         }
         //                                   初始化一个String类型的数组
-        String[] strAry = stringList.toArray(new String[] {});
+        String[] strAry  = stringList.toArray(new String[] {});
         for (int i = 0; i < strAry.length; i++) {
             System.out.println(strAry[i]);
         }
@@ -113,17 +117,122 @@ public class ListExample {
 
         // 获取头部元素 如果空链表则返回 null ，getFirst()会异常
         System.out.println(linkedList.peek());
+        // 获取并移除头部元素
         System.out.println(linkedList.poll());
 
         System.out.println(linkedList);
         System.out.println("============= LinkedList ============");
     }
 
-    
+    public static void stackList() {
+        Stack<String> stack = new Stack<>();
+        // 入栈
+        stack.push("first");
+        stack.push("second");
+        stack.push("third");
+        System.out.println(stack + ": " + stack.size());
 
+        // 出栈
+        int size = stack.size();
+        // 这里需要取栈的长度作为一个定值，若 i < stack.size() 则会导致每次循环由于出栈都会导致站长度的变化，最后就只能输出两个
+        for (int i = 0; i < size; i++) {
+            System.out.println(i + " : " +stack.pop());
+        }
+        System.out.println("---");
+        System.out.println("============= StackList ============");
+    }
+
+    public static void arrayListFunction() {
+        // 将一个元素添加到已经完整的ArrayList中，那么它会在内部自动重新调整大小以适应新元素
+        // 当需要向已经完整的ArrayList添加大量元素时，在这种情况下，ArrayList必须调整大小数次，
+        // 这将导致性能不佳。对于这种情况ensureCapacity()，Java.util.ArrayList类的方法非常有用，
+        // 因为它将ArrayList的大小增加了指定的容量
+        ArrayList<String> stringList = new ArrayList<>();
+        stringList.ensureCapacity(100);
+
+        stringList.add("Hello");
+        stringList.add("World");
+        stringList.add("Java");
+        System.out.println(stringList);
+
+        // 是否为空
+        System.out.println(stringList.isEmpty());
+
+        // 长度
+        System.out.println(stringList.size());
+
+        // 截取
+        System.out.println(stringList.subList(0, 1));
+
+        // 包含
+        System.out.println(stringList.contains("world"));
+
+        // 查找 若没有返回 -1 ； 若有返回对应的索引值
+        System.out.println(stringList.indexOf("Insert"));
+
+        // 清空
+        stringList.clear();
+
+        System.out.println(stringList);
+        System.out.println("============= ArrayList Function ============");
+    }
+
+    /**
+     * 读读之间不互斥，读写之间也不互斥，只有写写之间要加锁互斥
+     * 适合读多写少的场景
+     */
+    public static void copyOnWriteArrayList() {
+        // CopyOnWriteArrayList 避免了多线程操作List线程不安全的问题
+        // 原理： 就是在写的时候不对原集合进行修改，而是重新复制一份，修改完之后，再移动指针
+        // add()在添加集合的时候加上了锁，保证了同步，避免了多线程写的时候会Copy出N个副本出来
+
+        CopyOnWriteArrayList<String> stringList = new CopyOnWriteArrayList<>();
+        stringList.add("Hello");
+        stringList.add("Java");
+        System.out.println(stringList);
+
+        System.out.println("============= CopyOnWriteArrayList ============");
+    }
+
+    /**
+     * ArrayDeque是Deque接口的一个实现, 用了可变数组，所以没有容量上的限制
+     * 是线程不安全的，作为栈来使用效率高于stack，作为队列来使用，效率高于LinkedList
+     * 数组的大小(即队列的容量)有特殊的要求，必须是 2^n
+     */
+    public static void arrayDeque() {
+        // 底层是以数组实现的双向队列，大小是2的倍数 默认16 会进行双倍扩容
+        // 队头队尾两个下标，如果队尾追上队头，则进行双倍的扩容
+        // 队尾索引指的是下一个将要入队列的位置
+        ArrayDeque<String> stringList = new ArrayDeque<>();
+        stringList.add("queue1");
+        stringList.add("queue2");
+        stringList.add("queue3");
+        System.out.println(stringList);
+        System.out.println("============= arrayDeque ============");
+    }
+
+    /**
+     * 线程安全队列实现
+     */
+    public static void concurrentLinkedQueue() {
+        // 非阻塞 实现了依赖 CAS 的无锁算法
+        // 非阻塞线程安全队列
+        ConcurrentLinkedQueue<String> queue = new ConcurrentLinkedQueue<>();
+
+        // 非阻塞线程安全列表
+        ConcurrentLinkedDeque<String> deque = new ConcurrentLinkedDeque<>();
+
+        // 同步队列，在线程池中用到
+        SynchronousQueue<String> strings = new SynchronousQueue<>();
+    }
 
     public static void main(String[] args) {
 //        arrayList();
-        linkedList();
+//        linkedList();
+//        stackList();
+//        arrayListFunction();
+//        copyOnWriteArrayList();
+//        arrayDeque();
+//        concurrentLinkedQueue();
     }
 }

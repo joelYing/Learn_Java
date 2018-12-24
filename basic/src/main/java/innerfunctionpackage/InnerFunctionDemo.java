@@ -403,15 +403,14 @@ public class InnerFunctionDemo {
     public static void main(String[] args) throws ParseException, NoSuchAlgorithmException {
 //        biginteger();
 //        bigdecimal();
-//        date();
+        date();
 //        dateformat();
 //        calender();
 //        random();
 //        systemdemo();
 //        re();
 //        properties();
-        runtime();
-
+//        runtime();
     }
 
 }
