@@ -1,6 +1,10 @@
 package jdk;
 
 import java.io.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
 
 /**
  * @PackageName jdk
@@ -126,9 +130,95 @@ public class IoExample {
         System.out.println("===== firstStream =====");
     }
 
+    public static void fileString() {
+        // java给出的解释是使用字节流更好
+        File file = new File(Dir_Path + DS + "test2.txt");
+        try {
+            FileWriter fw = new FileWriter(file);
+            String string = "HelloWorld";
+            fw.write(string);
+            fw.write("\r\n");
+            // 当执行完此方法后，字符数据还并没有写入到目的文件中去。此时字符数据会保存在缓冲区中
+            fw.write(string);
+            // 刷新该流中的缓冲。将缓冲区中的字符数据保存到目的文件中去
+            fw.flush();
+            fw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            Reader reader = new FileReader(file);
+            int len = 0;
+            char[] c = new char[1024];
+            int temp = 0;
+            // read() 读取单个字符。返回作为整数读取的字符，如果已达到流末尾，则返回 -1
+            while ((temp = reader.read()) != -1) {
+                c[len] = (char)temp;
+                len++;
+            }
+            reader.close();
+            System.out.println(new String(c, 0, len));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void bufferReader() {
+        // BufferedReader只接受字符流缓冲区，所以将System.in字节流转换为字符流放入内存缓冲区
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        String string = null;
+        try {
+            // 输入两串数字
+            string = bufferedReader.readLine();
+            int a = Integer.parseInt(string);
+            string = bufferedReader.readLine();
+            int b = Integer.parseInt(string);
+            System.out.println(a + b);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void scanner() {
+        Scanner scanner = new Scanner(System.in);
+        String pattern = "^\\d{4}-\\d{2}-\\d{2}";
+        String str = null;
+        System.out.println("yyyy-MM-dd");
+        if (scanner.hasNext(pattern)) {
+            str = scanner.next(pattern);
+            Date date = null;
+            try {
+                date = new SimpleDateFormat("yyyy-MM-dd").parse(str);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+            System.out.println(date);
+        }
+    }
+
+    public static void print() {
+        // PrintStream 是打印输出流，它继承于FilterOutputStream
+        // PrintStream 永远不会抛出 IOException；它产生的IOException会被自身的函数所捕获并设置错误标记
+        PrintStream ps = null;
+        try {
+            ps = new PrintStream(new FileOutputStream(new File(Dir_Path + DS + "print.txt")));
+            ps.println("print");
+            ps.println("helloworld");
+            ps.close();
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
     public static void main(String[] args) {
 //        file();
-        listDir();
-        fileStream();
+//        listDir();
+//        fileStream();
+//        fileString();
+//        bufferReader();
+//        scanner();
+        print();
     }
 }
