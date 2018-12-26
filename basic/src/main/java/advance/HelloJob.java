@@ -10,6 +10,8 @@ import org.quartz.*;
 public class HelloJob implements Job {
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
+        // quartz 实现任务调度
+
         JobDetail detail = jobExecutionContext.getJobDetail();
         JobKey key = detail.getKey();
 

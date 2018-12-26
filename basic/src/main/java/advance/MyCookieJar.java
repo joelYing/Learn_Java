@@ -16,12 +16,12 @@ public class MyCookieJar implements CookieJar {
     private List<Cookie> cookies;
 
     @Override
-    public void saveFromResponse(HttpUrl httpUrl, List<Cookie> list) {
+    public void saveFromResponse(HttpUrl url, List<Cookie> cookies) {
         this.cookies = cookies;
     }
 
     @Override
-    public List<Cookie> loadForRequest(HttpUrl httpUrl) {
+    public List<Cookie> loadForRequest(HttpUrl url) {
         if (cookies != null) {
             return cookies;
         }
