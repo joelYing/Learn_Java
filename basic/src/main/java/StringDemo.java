@@ -1,4 +1,4 @@
-import org.eclipse.aether.util.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.Scanner;
 
