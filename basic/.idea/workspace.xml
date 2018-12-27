@@ -4,14 +4,42 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/advance/GsonExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advance/HashExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advance/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advance/ResponseData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advance/User.java" afterDir="false" />
+    <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/advance/Hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hankcs_hanlp_portable_1_2_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hankcs_hanlp_portable_1_2_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_whalin_Memcached_Java_Client_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_whalin_Memcached_Java_Client_3_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_jobs_2_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_jobs_2_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/advance/FastjsonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advance/FastjsonExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advance/GsonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advance/GsonExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advance/HashExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advance/HashExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advance/OkhttpExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advance/OkhttpExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,7 +100,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="86" />
+          <entry key="java" value="101" />
           <entry key="javatest" value="1" />
           <entry key="properties" value="6" />
           <entry key="sql" value="5" />
@@ -84,7 +112,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Database Element" value="1" />
-          <entry key="JAVA" value="86" />
+          <entry key="JAVA" value="101" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="6" />
           <entry key="SQL" value="3" />
@@ -95,7 +123,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="30" />
-          <entry key="java" value="48095" />
+          <entry key="java" value="51373" />
           <entry key="properties" value="87" />
           <entry key="sql" value="181" />
           <entry key="txt" value="10" />
@@ -104,7 +132,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="48095" />
+          <entry key="JAVA" value="51373" />
           <entry key="PLAIN_TEXT" value="40" />
           <entry key="Properties" value="87" />
           <entry key="SQL" value="181" />
@@ -146,38 +174,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/advance/OkhttpExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/advance/HashExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="519">
+              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#1817#1818#0" expanded="true" />
+                <element signature="e#1847#1848#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/advance/GsonExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/advance/Hash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="97" column="54" lean-forward="true" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1752#1781#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/advance/FastjsonExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1634">
-              <caret line="137" column="21" lean-forward="true" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+            <state relative-caret-position="140">
+              <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,10 +213,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/advance/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BasicDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="2320">
+              <caret line="117" column="54" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -215,7 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/abstractpackage/AbstractDemo1.java" />
         <option value="$PROJECT_DIR$/src/main/abstractpackage/AbstractDemo2.java" />
         <option value="$PROJECT_DIR$/src/main/interfacepackage/InterfaceDemo1.java" />
         <option value="$PROJECT_DIR$/src/main/interfacepackage/InterfaceDemo2.java" />
@@ -256,15 +282,16 @@
         <option value="$PROJECT_DIR$/src/main/java/jdk/NetExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/advance/MyCookieJar.java" />
         <option value="$PROJECT_DIR$/src/main/java/advance/HelloJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/advance/OkhttpExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/advance/QuartzExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/advance/Slf4jExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/StringDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/advance/ResponseData.java" />
         <option value="$PROJECT_DIR$/src/main/java/advance/Response.java" />
-        <option value="$PROJECT_DIR$/src/main/java/advance/FastjsonExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/advance/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/advance/OkhttpExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/advance/FastjsonExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/advance/GsonExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/advance/Hash.java" />
         <option value="$PROJECT_DIR$/src/main/java/advance/HashExample.java" />
       </list>
     </option>
@@ -294,9 +321,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="width" value="683" />
-    <option name="height" value="728" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1295" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -319,12 +347,23 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="basic" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic" type="b2602c69:ProjectViewProjectNode" />
@@ -352,11 +391,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="advance" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,7 +414,7 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;PSI&#9;JAVA://sun.java2d.marlin.Stroker#sOutCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545841908160" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545897904757" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="F:/Jprogram/learning-java-master/example" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -376,7 +422,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -400,7 +446,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GsonExample">
+  <component name="RunManager" selected="Application.HashExample">
     <configuration name="FastjsonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="advance.FastjsonExample" />
       <module name="basic" />
@@ -427,8 +473,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OkhttpExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="advance.OkhttpExample" />
+    <configuration name="HashExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="advance.HashExample" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
@@ -467,19 +513,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OkhttpExample" />
       <item itemvalue="Application.QuartzExample" />
       <item itemvalue="Application.Slf4jExample" />
       <item itemvalue="Application.FastjsonExample" />
       <item itemvalue="Application.GsonExample" />
+      <item itemvalue="Application.HashExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashExample" />
         <item itemvalue="Application.GsonExample" />
         <item itemvalue="Application.FastjsonExample" />
         <item itemvalue="Application.QuartzExample" />
         <item itemvalue="Application.Slf4jExample" />
-        <item itemvalue="Application.OkhttpExample" />
       </list>
     </recent_temporary>
   </component>
@@ -513,12 +559,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280601000" />
+    <option name="totallyTimeSpent" value="295803000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-7" y="0" width="1281" height="1392" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22604422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -527,7 +574,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902184" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3161512" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36275303" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,7 +583,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32844037" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32844037" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.18488745" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32983023" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3592233" />
@@ -597,8 +644,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/com/joelyings/abstractpackage/AbstractDemo2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/joelyings/abstractpackage/AbstractDemo1.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/MathDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -815,51 +860,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/advance/OkhttpExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1082">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/advance/QuartzExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BasicDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="117" column="54" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ArrayDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/innerfunctionpackage/InnerFunctionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" selection-start-column="44" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -877,32 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/advance/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -937,10 +915,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/advance/FastjsonExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="137" column="21" lean-forward="true" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+        <state relative-caret-position="180">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/innerfunctionpackage/InnerFunctionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/advance/QuartzExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -949,23 +944,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/advance/GsonExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="97" column="54" lean-forward="true" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
+        <state relative-caret-position="1025">
+          <caret line="189" column="26" lean-forward="true" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1752#1781#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/advance/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/advance/FastjsonExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/learn_java/learning-java-master/example/src/main/java/com/niuchaoqun/example/advance/OkhttpExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BasicDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2320">
+          <caret line="117" column="54" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/advance/Hash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/advance/OkhttpExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/advance/HashExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="519">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
           </folding>
         </state>
       </provider>
