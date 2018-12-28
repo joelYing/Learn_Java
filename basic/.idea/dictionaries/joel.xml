@@ -1,3 +1,9 @@
 <component name="ProjectDictionaryState">
-  <dictionary name="joel" />
+  <dictionary name="joel">
+    <words>
+      <w>bubblesort</w>
+      <w>insertsort</w>
+      <w>selectsort</w>
+    </words>
+  </dictionary>
 </component>
