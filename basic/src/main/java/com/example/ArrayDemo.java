@@ -24,7 +24,7 @@ public class ArrayDemo {
         System.out.println(snumber);
         int[] numArr = new int[snumber.length()];
         for (int i = 0; i < snumber.length(); i++) {
-            numArr[snumber.length()-i-1] = (Integer.parseInt(snumber.charAt(i)+"", 10) + 5)%10;
+            numArr[snumber.length()-i-1] = (Integer.parseInt(snumber.charAt(i) + "", 10) + 5)%10;
         }
 
         // 交换最后一位与第一位

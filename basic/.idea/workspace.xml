@@ -5,86 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apache/CommonsCodec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apache/CommonsIo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apache/CommonsLang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/redis.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ArgsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ArgsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ArrayDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/BasicDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/BasicDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/MathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MathDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MethodDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ObjectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ObjectDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProcessControlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ProcessControlDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abstractpackage/AbstractDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/abstractpackage/AbstractDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abstractpackage/AbstractDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/abstractpackage/AbstractDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advance/FastjsonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advance/GsonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/GsonExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advance/Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/Hash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advance/HashExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/HashExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advance/HelloJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/HelloJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advance/MyCookieJar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/MyCookieJar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advance/OkhttpExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/OkhttpExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advance/QuartzExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/QuartzExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advance/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advance/ResponseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/ResponseData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advance/Slf4jExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/Slf4jExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advance/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/algorithm/Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/SortExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/algorithm/SortExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apache/CommonsCodec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/classdemopackage/ClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classdemopackage/ClassDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/classdemopackage/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classdemopackage/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/database/MysqlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database/MysqlDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/database/RedisDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database/RedisDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/extendsdemo/ExtendsDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/extendsdemo/ExtendsDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/extendsdemo/ExtendsDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/extendsdemo/ExtendsDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/extendsdemo/ExtendsDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/extendsdemo/ExtendsDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/extendsdemo/ExtendsDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/extendsdemo/ExtendsDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/extendsdemo/ExtendsDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/extendsdemo/ExtendsDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/innerclasspackage/InnerclassDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/innerclasspackage/InnerclassDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/innerclasspackage/InnerclassDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/innerclasspackage/InnerclassDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/innerfunctionpackage/InnerFunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/innerfunctionpackage/InnerFunctionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfacepackage/InterfaceDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/interfacepackage/InterfaceDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfacepackage/InterfaceDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/interfacepackage/InterfaceDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/AtomicExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/AtomicExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jdk/AtomicExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/CollectionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/CollectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jdk/CollectionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/Date8Example.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/Date8Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jdk/Date8Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/DateExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/DateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jdk/DateExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/FormatExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/FormatExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jdk/FormatExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/IoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jdk/IoExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/ListExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jdk/ListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jdk/MapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/NetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jdk/NetExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/SetExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/SetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jdk/SetExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/UuidExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk/UuidExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jdk/UuidExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polymorphismpackage/DuoTaiDemo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polymorphismpackage/DuoTaiDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/polymorphismpackage/DuoTaiDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polymorphismpackage/DuoTaiDemo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polymorphismpackage/DuoTaiDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/polymorphismpackage/DuoTaiDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testpackage/StaticDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testpackage/StaticDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testpackage/StaticDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testpackage/TestDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testpackage/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testpackage/TestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testpackage/TestTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testpackage/TestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testpackage/TestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thread/ThreadDemo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thread/ThreadDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thread/ThreadDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thread/ThreadDemo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thread/ThreadDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/thread/ThreadDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ArgsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ArgsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/StringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -131,22 +56,23 @@
     <session id="1822669605">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="html" value="3" />
-          <entry key="java" value="118" />
+          <entry key="java" value="136" />
           <entry key="javatest" value="1" />
           <entry key="properties" value="10" />
           <entry key="sql" value="6" />
@@ -159,7 +85,7 @@
           <entry key="CLASS" value="1" />
           <entry key="Database Element" value="1" />
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="118" />
+          <entry key="JAVA" value="136" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="Properties" value="10" />
           <entry key="SQL" value="4" />
@@ -170,7 +96,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="30" />
-          <entry key="java" value="55759" />
+          <entry key="java" value="55776" />
           <entry key="properties" value="87" />
           <entry key="sql" value="181" />
           <entry key="txt" value="10" />
@@ -179,7 +105,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="55759" />
+          <entry key="JAVA" value="55776" />
           <entry key="PLAIN_TEXT" value="40" />
           <entry key="Properties" value="87" />
           <entry key="SQL" value="181" />
@@ -222,10 +148,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/apache/CommonsLang.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="140">
+              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -255,12 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/innerfunctionpackage/BigIntegerDecimalDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/MathDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/com/joelyings/innerfunctionpackage/InnerFunctionDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/ArrayDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/com/joelyings/AbstractDemo1.java" />
-        <option value="$PROJECT_DIR$/src/main/com/joelyings/abstractpackage/AbstractDemo1.java" />
         <option value="$PROJECT_DIR$/data/test.properties" />
         <option value="$PROJECT_DIR$/src/main/database/MysqlDemo.java" />
         <option value="$PROJECT_DIR$/src/main/innerfunctionpackage/InnerFunctionDemo.java" />
@@ -306,6 +226,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/apache/CommonsIo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apache/CommonsLang.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/apache/CommonsLang.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/other/other1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/ArgsDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/ArrayDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/ObjectDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/StringDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java" />
       </list>
     </option>
   </component>
@@ -334,10 +260,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="width" value="1296" />
-    <option name="height" value="1408" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1267" />
+    <option name="width" value="1301" />
+    <option name="height" value="1413" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -360,6 +286,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -410,13 +337,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="advance" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,9 +354,9 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;PSI&#9;JAVA://sun.java2d.marlin.Stroker#sOutCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545986610832" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546079486945" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -460,13 +386,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CommonsLang">
-    <configuration name="CommonsCodec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.apache.CommonsCodec" />
+  <component name="RunManager" selected="Application.FastjsonExample">
+    <configuration name="BasicDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.BasicDemo" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.apache.*" />
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -474,12 +400,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonsIo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.apache.CommonsIo" />
+    <configuration name="FastjsonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.advance.FastjsonExample" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.apache.*" />
+          <option name="PATTERN" value="com.example.advance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -487,12 +413,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonsLang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.apache.CommonsLang" />
+    <configuration name="MathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MathDemo" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.apache.*" />
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -500,12 +426,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abstractpackage.advance.HashExample" />
+    <configuration name="ProcessControlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ProcessControlDemo" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.abstractpackage.advance.*" />
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -513,12 +439,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.algorithm.SortExample" />
+    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.StringDemo" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.algorithm.*" />
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -527,19 +453,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HashExample" />
-      <item itemvalue="Application.SortExample" />
-      <item itemvalue="Application.CommonsCodec" />
-      <item itemvalue="Application.CommonsIo" />
-      <item itemvalue="Application.CommonsLang" />
+      <item itemvalue="Application.BasicDemo" />
+      <item itemvalue="Application.MathDemo" />
+      <item itemvalue="Application.ProcessControlDemo" />
+      <item itemvalue="Application.StringDemo" />
+      <item itemvalue="Application.FastjsonExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CommonsLang" />
-        <item itemvalue="Application.CommonsIo" />
-        <item itemvalue="Application.CommonsCodec" />
-        <item itemvalue="Application.SortExample" />
-        <item itemvalue="Application.HashExample" />
+        <item itemvalue="Application.FastjsonExample" />
+        <item itemvalue="Application.StringDemo" />
+        <item itemvalue="Application.ProcessControlDemo" />
+        <item itemvalue="Application.MathDemo" />
+        <item itemvalue="Application.BasicDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -569,12 +495,13 @@
       <workItem from="1545615388712" duration="25943000" />
       <workItem from="1545701261548" duration="25410000" />
       <workItem from="1545787885222" duration="11823000" />
-      <workItem from="1545960918167" duration="18225000" />
+      <workItem from="1545960918167" duration="19018000" />
+      <workItem from="1546047441307" duration="15139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316538000" />
+    <option name="totallyTimeSpent" value="332470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,10 +513,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1282" height="1393" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2549" height="1401" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2299509" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11370028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -598,7 +524,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32847896" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34951457" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19212219" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -668,59 +594,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/JavaJDK/lib/src.zip!/java.base/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jdk/AtomicExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1195">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jdk/CollectionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1256">
-          <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jdk/SetExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jdk/MapExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3230">
-          <caret line="175" column="28" selection-start-line="175" selection-start-column="28" selection-end-line="175" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jdk/ListExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="232" column="30" selection-start-line="232" selection-start-column="30" selection-end-line="232" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JavaJDK/lib/src.zip!/java.base/java/time/LocalDateTime.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/database/MysqlDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/subdata/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jdk/DateExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="856">
@@ -834,16 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/StringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/innerfunctionpackage/InnerFunctionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
@@ -878,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/BasicDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2320">
-          <caret line="117" column="54" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/OkhttpExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -899,27 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MathDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1125">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MethodDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1185">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ArrayDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
         </state>
       </provider>
     </entry>
@@ -961,16 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="790">
           <caret line="189" column="26" lean-forward="true" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1040,10 +865,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/other/other1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/apache/CommonsIo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="460">
+          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1052,8 +888,119 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/apache/CommonsLang.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="82" lean-forward="true" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ArgsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ArrayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="116" column="6" lean-forward="true" selection-start-line="116" selection-start-column="6" selection-end-line="119" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/BasicDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <caret line="138" column="36" lean-forward="true" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MathDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MethodDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="93" column="16" lean-forward="true" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JavaJDK/lib/src.zip!/java.base/java/lang/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ObjectDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="101" column="63" lean-forward="true" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ProcessControlDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1129">
+          <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JavaJDK/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="3098" column="25" selection-start-line="3098" selection-start-column="25" selection-end-line="3098" selection-end-column="25" />
+          <folding>
+            <element signature="e#123387#123388#0" expanded="true" />
+            <element signature="e#123428#123429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/StringDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="209" column="5" lean-forward="true" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/abstractpackage/AbstractDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/abstractpackage/AbstractDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-593">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

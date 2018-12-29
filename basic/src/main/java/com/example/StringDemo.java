@@ -11,10 +11,10 @@ import java.util.Scanner;
  **/
 public class StringDemo {
     public static void main(String[] args) {
-//        test1();
-//        test2();
-//        str1();
-//        empty();
+        test1();
+        test2();
+        str1();
+        empty();
         function();
         stringBufferDemo();
         stringBuilderDemo();
