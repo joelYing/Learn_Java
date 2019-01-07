@@ -2,6 +2,7 @@
   <dictionary name="joel">
     <words>
       <w>bubblesort</w>
+      <w>imdb</w>
       <w>insertsort</w>
       <w>selectsort</w>
     </words>
