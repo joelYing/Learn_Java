@@ -225,7 +225,7 @@ public class InnerFunctionDemo {
             System.out.print(i);
         }
         long end = System.currentTimeMillis();
-        System.out.println("耗时： " + (end - start) + "毫秒");
+        System.out.println("\n耗时： " + (end - start) + "毫秒");
 
         int[] arr = { 1, 2, 3, 4, 5 };
         int[] arr2 = { 6, 7, 8, 9, 10 };
@@ -293,7 +293,7 @@ public class InnerFunctionDemo {
         System.out.println(s5);
         System.out.println(s7);
 
-        // Pattern Matcher的使用
+        // Pattern Matcher的使用 取出长度为3的字符串
         String s6 = "adf kjdf sahd kjd ksj iwi ksjd ajsdkla kkk";
         String regex = "\\b[a-z]{3}\\b";
         Pattern p = Pattern.compile(regex);
@@ -338,8 +338,6 @@ public class InnerFunctionDemo {
         File output = new File("data/test.properties");
         try {
             p.store(new FileOutputStream(output), "Comment");
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -349,8 +347,6 @@ public class InnerFunctionDemo {
         File input = new File("data/test.properties");
         try {
             p.load(new FileInputStream(input));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -401,9 +397,9 @@ public class InnerFunctionDemo {
     }
 
     public static void main(String[] args) throws ParseException, NoSuchAlgorithmException {
-//        biginteger();
+        biginteger();
 //        bigdecimal();
-        date();
+//        date();
 //        dateformat();
 //        calender();
 //        random();
