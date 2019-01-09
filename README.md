@@ -118,3 +118,7 @@ java HelloWorld                   # 执行程序
 + public： Java语言中访问限制最宽的修饰符，一般称之为“公共的”。被其修饰的类、属性以及方法不仅可以跨类访问，而且允许跨包访问。
 
 ```
+
+### Tomcat 控制台打印 log 中文乱码解决办法
+在 IDEA 安装文件的 bin 目录下的 idea.exe.vmoptions 和 idea64.exe.vmoptions 分别都添加 **-Dfile.encoding=UTF-8** 即可
+然后再在 run -> edit configurations 中 VM options 添加 -Dfile.encoding=UTF-8
