@@ -215,10 +215,10 @@ public class IoExample {
     public static void main(String[] args) {
 //        file();
 //        listDir();
-//        fileStream();
+        fileStream();
 //        fileString();
 //        bufferReader();
 //        scanner();
-        print();
+//        print();
     }
 }

@@ -55,8 +55,8 @@ public class ListExample {
                 iterator.remove();
             }
         }
-        // stringList.removeIf(string -> string.equals("set"));
-        // stringList.removeIf("set"::equals);
+        // stringList.removeIf(string -> string.equals("set"))
+        // stringList.removeIf("set"::equals)
 
         System.out.println(stringList);
         System.out.println("-------------------------");
