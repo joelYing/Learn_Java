@@ -3,4 +3,62 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <!--<welcome-file-list>-->
+        <!--<welcome-file>/MyFirstServlet</welcome-file>-->
+    <!--</welcome-file-list>-->
+
+    <!--<servlet>-->
+        <!--<servlet-name>MyFirstServlet</servlet-name>-->
+        <!--<servlet-class>MyFirstServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>MyFirstServlet</servlet-name>-->
+        <!--<url-pattern>/MyFirstServlet</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <!-- SimpleServlet -->
+    <servlet>
+        <servlet-name>SimpleServlet</servlet-name>
+        <servlet-class>SimpleServlet</servlet-class>
+
+        <!-- Servlet init param -->
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>value</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SimpleServlet</servlet-name>
+        <url-pattern>/SimpleServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Filter -->
+    <welcome-file-list>
+        <welcome-file>login.html</welcome-file>
+        <welcome-file>login.htm</welcome-file>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!-- 权限拦截器 -->
+    <filter>
+        <filter-name>LoginFilter</filter-name>
+        <filter-class>LoginFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>GBK</param-value>
+        </init-param>
+        <init-param>
+            <param-name>loginPage</param-name>
+            <param-value>/login.jsp</param-value>
+        </init-param>
+        <init-param>
+            <param-name>afterLogin</param-name>
+            <param-value>/main.jsp</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>LoginFilter</filter-name>
+        <url-pattern>/main.jsp</url-pattern>
+    </filter-mapping>
+
 </web-app>
