@@ -120,5 +120,5 @@ java HelloWorld                   # 执行程序
 ```
 
 ### Tomcat 控制台打印 log 中文乱码解决办法
-在 IDEA 安装文件的 bin 目录下的 idea.exe.vmoptions 和 idea64.exe.vmoptions 分别都添加 **-Dfile.encoding=UTF-8** 即可
-然后再在 run -> edit configurations 中 VM options 添加 -Dfile.encoding=UTF-8
+在 IDEA 安装文件的 bin 目录下的 idea.exe.vmoptions 和 idea64.exe.vmoptions 分别都添加 **-Dfile.encoding=UTF-8** 即可  
+若是在控制台 server 中打印的中文为乱码 则要在 run -> edit configurations 中 VM options 添加 -Dfile.encoding=UTF-8
