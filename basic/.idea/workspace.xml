@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spiders/BaiduNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spiders/NewsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spiders/NewsFeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spiders/NewsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/advance/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/advance/Response.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../servletwebapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servletwebapp/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,9 +59,9 @@
     <session id="1822669605">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.33" value="1" />
@@ -62,19 +69,20 @@
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="html" value="3" />
-          <entry key="java" value="197" />
+          <entry key="java" value="208" />
           <entry key="javatest" value="1" />
           <entry key="jpg" value="2" />
           <entry key="properties" value="11" />
@@ -89,7 +97,7 @@
           <entry key="Database Element" value="1" />
           <entry key="HTML" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="197" />
+          <entry key="JAVA" value="208" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="Properties" value="11" />
           <entry key="SQL" value="4" />
@@ -100,7 +108,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="48" />
-          <entry key="java" value="60142" />
+          <entry key="java" value="61358" />
           <entry key="properties" value="87" />
           <entry key="sql" value="181" />
           <entry key="txt" value="10" />
@@ -109,7 +117,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="60142" />
+          <entry key="JAVA" value="61358" />
           <entry key="PLAIN_TEXT" value="58" />
           <entry key="Properties" value="87" />
           <entry key="SQL" value="181" />
@@ -154,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/FirstSpider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="1000">
+              <caret line="60" column="9" selection-start-line="55" selection-start-column="8" selection-end-line="60" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,10 +172,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chuanzhi/day14/Regex.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/BaiduNews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="511">
+              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2446#2447#0" expanded="true" />
+                <element signature="e#2474#2475#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/NewsFeed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <folding>
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/NewsResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/NewsData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+              <folding>
+                <element signature="e#1498#1499#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
+                <element signature="e#1595#1596#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2480">
+              <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,28 +243,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chuanzhi/day20/DiGui.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/Response.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="640">
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chuanzhi/day20/FileExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/ResponseData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="480">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/chuanzhi/text1.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/SecondSpider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="-100">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -205,7 +281,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jdk/IoExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2080">
+            <state relative-caret-position="682">
               <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
             </state>
           </provider>
@@ -230,6 +306,10 @@
       <find>div class=&quot;hong</find>
       <find>jpg</find>
       <find>Random</find>
+      <find>{&quot;title&quot;</find>
+      <find>{&quot;title&quot;:</find>
+      <find>&quot;title&quot;</find>
+      <find>}}</find>
     </findStrings>
     <dirStrings>
       <dir>D:\mygit\learn_javagit\Learn_Java\basic\src\main\java\com</dir>
@@ -241,11 +321,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/jdk/AtomicExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jdk/CollectionExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jdk/ListExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jdk/SetExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jdk/MapExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/innerfunctionpackage/InnerFunctionDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/jdk/DateExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/jdk/Date8Example.java" />
@@ -281,7 +356,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/ArrayDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/ObjectDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/StringDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/FirstSpider.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/SecondSpider.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/BasicDemo.java" />
@@ -292,6 +366,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chuanzhi/day20/DiGui.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/jdk/IoExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chuanzhi/day20/FileExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spiders/NewsResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/advance/Response.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spiders/NewsData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spiders/NewsFeed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spiders/BaiduNews.java" />
       </list>
     </option>
   </component>
@@ -320,10 +400,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="width" value="1297" />
-    <option name="height" value="1409" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1295" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -345,8 +425,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -389,10 +467,31 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="advance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -404,7 +503,7 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;PSI&#9;JAVA://sun.java2d.marlin.Stroker#sOutCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547027924838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547202417402" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -436,7 +535,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileExample">
+  <component name="RunManager" selected="Application.BaiduNews">
+    <configuration name="BaiduNews" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spiders.BaiduNews" />
+      <module name="basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spiders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CollectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.jdk.CollectionExample" />
       <module name="basic" />
@@ -456,6 +568,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.chuanzhi.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastjsonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.advance.FastjsonExample" />
+      <module name="basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.advance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -489,32 +614,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Regex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chuanzhi.day14.Regex" />
-      <module name="basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chuanzhi.day14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Regex" />
       <item itemvalue="Application.CollectionExample" />
       <item itemvalue="Application.FileExample" />
       <item itemvalue="Application.IoExample" />
+      <item itemvalue="Application.BaiduNews" />
+      <item itemvalue="Application.FastjsonExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaiduNews" />
+        <item itemvalue="Application.FastjsonExample" />
         <item itemvalue="Application.FileExample" />
         <item itemvalue="Application.IoExample" />
         <item itemvalue="Application.CollectionExample" />
-        <item itemvalue="Application.CollectionExample" />
-        <item itemvalue="Application.Regex" />
       </list>
     </recent_temporary>
   </component>
@@ -553,11 +666,13 @@
       <workItem from="1546912312895" duration="18972000" />
       <workItem from="1546999349346" duration="20125000" />
       <workItem from="1547029753615" duration="21000" />
+      <workItem from="1547171693468" duration="15673000" />
+      <workItem from="1547198634045" duration="2439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="402287000" />
+    <option name="totallyTimeSpent" value="420399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -569,9 +684,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1283" height="1394" extended-state="0" />
+    <frame x="-8" y="-8" width="2549" height="1401" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24284546" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12334271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -580,7 +696,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32793522" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14401294" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33440515" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39919028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -650,58 +766,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/ResponseData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/GsonExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="976">
-          <caret line="189" column="26" lean-forward="true" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/Slf4jExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jdk/FormatExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jdk/UuidExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imageData/七宗罪.jpg" />
     <entry file="file://$PROJECT_DIR$/data/movieimage/龙猫.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/SecondSpider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jdk/AtomicExample.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -857,13 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1864">
-          <caret line="106" column="28" lean-forward="true" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/OkhttpExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -916,9 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="743">
           <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,23 +999,10 @@
     <entry file="file://$PROJECT_DIR$/data/chuanzhi/copytext1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/FirstSpider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chuanzhi/day14/Regex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,17 +1020,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chuanzhi/day20/FileExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/FirstSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="60" column="9" selection-start-line="55" selection-start-column="8" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/NewsData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2480">
+          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/NewsResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/NewsFeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/BaiduNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2446#2447#0" expanded="true" />
+            <element signature="e#2474#2475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/SecondSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jdk/IoExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2080">
+        <state relative-caret-position="682">
           <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chuanzhi/day20/FileExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/ResponseData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="480">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>

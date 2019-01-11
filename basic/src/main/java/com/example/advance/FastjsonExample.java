@@ -134,7 +134,7 @@ public class FastjsonExample {
     }
 
     public static void main(String[] args) {
-        simpleExample();
+//        simpleExample();
         jsonObject();
     }
 }

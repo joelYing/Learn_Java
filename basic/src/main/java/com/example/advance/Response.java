@@ -41,5 +41,7 @@ public class Response {
     public void setData2(List<ResponseData> data2) {
         this.data2 = data2;
     }
-    public void addData2(ResponseData rd) {data2.add(rd);}
+    public void addData2(ResponseData rd) {
+        data2.add(rd);
+    }
 }
