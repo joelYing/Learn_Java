@@ -1,5 +1,6 @@
-package com.spiders.baidu_news_spider;
-import com.spiders.baidu_news_spider.jsonparse.removeFeed;
+package com.spiders.baidunewsspider;
+import com.spiders.baidunewsspider.jsonparse.IncludeFeed;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -15,7 +16,6 @@ public class BaiduNews {
     // pn=(页数-1)*20
 
     public static String baiduNewsUrl = "http://news.baidu.com/ns?word=%s&pn=%s&cl=2&ct=0&tn=json&rn=20&ie=utf-8&bt=0&et=0&clk=sortbytime";
-    public static String entry = "\"entry\":\\[(.*?)\\]";
 
     public static void getNewsUrl() {
         StringBuilder result = new StringBuilder();
@@ -46,8 +46,8 @@ public class BaiduNews {
                 e.printStackTrace();
             }
         }
-
-        removeFeed.removefeed(result);
+//        RemoveFeed.removefeed(result)
+        IncludeFeed.includeFeed(result);
     }
 
     public static void main(String[] args) {

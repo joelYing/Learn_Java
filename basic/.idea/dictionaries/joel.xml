@@ -4,6 +4,8 @@
       <w>bubblesort</w>
       <w>imdb</w>
       <w>insertsort</w>
+      <w>removefeed</w>
+      <w>resultnum</w>
       <w>selectsort</w>
     </words>
   </dictionary>

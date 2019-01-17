@@ -1,4 +1,4 @@
-package com.spiders.baidu_news_spider.bean;
+package com.spiders.baidunewsspider.bean;
 
 import java.util.HashMap;
 

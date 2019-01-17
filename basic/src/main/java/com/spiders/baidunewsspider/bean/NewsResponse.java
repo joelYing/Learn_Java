@@ -1,4 +1,4 @@
-package com.spiders.baidu_news_spider.bean;
+package com.spiders.baidunewsspider.bean;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,6 +10,8 @@ import java.util.List;
  * @Date 2019/1/11 14:17
  **/
 public class NewsResponse {
+    // 根据 json 中的值的类型 来定义 变量的类型
+
     private String requestUrl;
     private String updated;
     private String description;
