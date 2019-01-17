@@ -1,4 +1,4 @@
-package com.spiders;
+package com.spiders.baidu_news_spider.bean;
 
 import java.util.HashMap;
 
@@ -8,13 +8,13 @@ import java.util.HashMap;
  * @Date 2019/1/11 14:41
  **/
 public class NewsFeed {
-    private HashMap<String, String> feed;
+    private HashMap<String, Object> feed;
 
-    public HashMap<String, String> getFeed() {
+    public HashMap<String, Object> getFeed() {
         return feed;
     }
 
-    public void setFeed(HashMap<String, String> feed) {
+    public void setFeed(HashMap<String, Object> feed) {
         this.feed = feed;
     }
 }

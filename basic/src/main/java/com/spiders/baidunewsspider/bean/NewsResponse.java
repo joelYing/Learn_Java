@@ -1,4 +1,4 @@
-package com.spiders;
+package com.spiders.baidu_news_spider.bean;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -21,6 +21,46 @@ public class NewsResponse {
     private int pn;
     private int rn;
     private List<NewsData> entry = new ArrayList<>();
+
+    public HashMap<String, String> getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(HashMap<String, String> author) {
+        this.author = author;
+    }
+
+    public int getAll() {
+        return all;
+    }
+
+    public void setAll(int all) {
+        this.all = all;
+    }
+
+    public int getResultnum() {
+        return resultnum;
+    }
+
+    public void setResultnum(int resultnum) {
+        this.resultnum = resultnum;
+    }
+
+    public int getPn() {
+        return pn;
+    }
+
+    public void setPn(int pn) {
+        this.pn = pn;
+    }
+
+    public int getRn() {
+        return rn;
+    }
+
+    public void setRn(int rn) {
+        this.rn = rn;
+    }
 
     public String getRequestUrl() {
         return requestUrl;
@@ -62,45 +102,6 @@ public class NewsResponse {
         this.category = category;
     }
 
-    public HashMap<String, String> getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(HashMap<String, String> author) {
-        this.author = author;
-    }
-
-    public int getAll() {
-        return all;
-    }
-
-    public void setAll(int all) {
-        this.all = all;
-    }
-
-    public int getResultnum() {
-        return resultnum;
-    }
-
-    public void setResultnum(int resultnum) {
-        this.resultnum = resultnum;
-    }
-
-    public int getPn() {
-        return pn;
-    }
-
-    public void setPn(int pn) {
-        this.pn = pn;
-    }
-
-    public int getRn() {
-        return rn;
-    }
-
-    public void setRn(int rn) {
-        this.rn = rn;
-    }
 
     public List<NewsData> getEntry() {
         return entry;

@@ -122,3 +122,22 @@ java HelloWorld                   # 执行程序
 ### Tomcat 控制台打印 log 中文乱码解决办法
 在 IDEA 安装文件的 bin 目录下的 idea.exe.vmoptions 和 idea64.exe.vmoptions 分别都添加 **-Dfile.encoding=UTF-8** 即可  
 若是在控制台 server 中打印的中文为乱码 则要在 run -> edit configurations 中 VM options 添加 -Dfile.encoding=UTF-8
+
+### SLF4J 冲突
+
+```
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Program%20Files/maven/lib/maven-slf4j-provider-3.5.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Program%20Files/maven/repo/org/slf4j/slf4j-log4j12/1.7.23/slf4j-log4j12-1.7.23.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.MavenSimpleLoggerFactory]
+```
+
+解决途径：删除 pom.xml 中的
+```
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.23</version>
+        </dependency>
+```
