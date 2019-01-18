@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="boilerpipe-1.2">
+    <CLASSES>
+      <root url="file://D:/JAVA/boilerpipe-1.2.0" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/JAVA/boilerpipe-1.2.0" />
+    </SOURCES>
+    <jarDirectory url="file://D:/JAVA/boilerpipe-1.2.0" recursive="false" />
+    <jarDirectory url="file://D:/JAVA/boilerpipe-1.2.0" recursive="false" type="SOURCES" />
+  </library>
+</component>

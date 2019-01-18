@@ -1,5 +1,6 @@
 package com.spiders.baidunewsspider;
 
+import cn.edu.hfut.dmic.contentextractor.ContentExtractor;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
@@ -21,24 +22,38 @@ import java.io.InputStream;
  **/
 public class NewsContent {
     public static void newsContent(String newsUrl) {
-        newsUrl = "http://www.donews.com/news/detail/4/3034544.html";
-
-        CloseableHttpClient httpClient  = HttpClients.createDefault();
+        CloseableHttpClient httpClient  = HttpClients.custom()
+                .setUserAgent("Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) " +
+                        "Chrome/36.0.1985.125 Safari/537.36")
+                .build();
         HttpGet httpGet = new HttpGet(newsUrl);
 
         try {
             CloseableHttpResponse httpResponse = httpClient.execute(httpGet);
-            String response = EntityUtils.toString(httpResponse.getEntity());
+            String response = EntityUtils.toString(httpResponse.getEntity(), "UTF-8");
 
-            System.out.println(response);
-        } catch (IOException e) {
-            e.printStackTrace();
+            String content = ContentExtractor.getContentByHtml(response);
+            System.out.println(content);
+        } catch (Exception e) {
+            System.out.println("解析失败");
         }
-
-
     }
 
     public static void testHttpClient() {
+        // test
+//        String newsUrl = null;
+//        CloseableHttpClient httpClient  = HttpClients.createDefault();
+//        HttpGet httpGet = new HttpGet(newsUrl);
+//
+//        try {
+//            CloseableHttpResponse httpResponse = httpClient.execute(httpGet);
+//            String response = EntityUtils.toString(httpResponse.getEntity());
+//
+//            System.out.println(response);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
         // Http 响应
         HttpResponse response = new BasicHttpResponse(HttpVersion.HTTP_1_1, HttpStatus.SC_OK, "OK");
         System.out.println(response.getProtocolVersion());
@@ -65,8 +80,7 @@ public class NewsContent {
         }
     }
 
-    public static void main(String[] args) {
-//        testHttpClient();
-        newsContent(" ");
-    }
+//    public static void main(String[] args) {
+//        newsContent("http://it.sohu.com/20190116/n561077122.shtml");
+//    }
 }

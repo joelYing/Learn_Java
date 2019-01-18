@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/jsonparse/IncludeFeed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/jsonparse/RemoveFeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/joel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/joel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_edu_hfut_dmic_webcollector_WebCollector_2_73_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_juniversalchardet_juniversalchardet_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sleepycat_je_5_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/boilerpipe_1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spiders/BaiduNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/BaiduNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spiders/NewsData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spiders/NewsFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsFeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spiders/NewsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/BaiduNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/BaiduNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/jsonparse/IncludeFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/jsonparse/IncludeFeed.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,10 +63,10 @@
     <session id="1822669605">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="5" />
@@ -76,60 +77,63 @@
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="0" value="4" />
-          <entry key="class" value="1" />
+          <entry key="0" value="5" />
+          <entry key="class" value="11" />
           <entry key="html" value="3" />
-          <entry key="java" value="220" />
+          <entry key="java" value="225" />
           <entry key="javatest" value="1" />
           <entry key="jpg" value="2" />
           <entry key="properties" value="11" />
           <entry key="sql" value="6" />
           <entry key="txt" value="20" />
-          <entry key="xml" value="13" />
+          <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="11" />
           <entry key="Database Element" value="1" />
           <entry key="HTML" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="220" />
+          <entry key="JAVA" value="225" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="Properties" value="11" />
           <entry key="SQL" value="4" />
           <entry key="Scratch" value="2" />
-          <entry key="UML" value="4" />
-          <entry key="XML" value="13" />
+          <entry key="UML" value="5" />
+          <entry key="XML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="49" />
-          <entry key="java" value="63517" />
+          <entry key="java" value="64462" />
           <entry key="properties" value="87" />
           <entry key="sql" value="181" />
           <entry key="txt" value="10" />
-          <entry key="xml" value="58" />
+          <entry key="xml" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="63517" />
+          <entry key="JAVA" value="64462" />
           <entry key="PLAIN_TEXT" value="59" />
           <entry key="Properties" value="87" />
           <entry key="SQL" value="181" />
-          <entry key="XML" value="58" />
+          <entry key="XML" value="75" />
         </counts>
       </usages-collector>
     </session>
@@ -170,20 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/BaiduNews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="342">
+              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,69 +184,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/jsonparse/IncludeFeed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsFeed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="41" selection-start-column="41" selection-end-column="41" />
-              <folding>
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2080">
-              <caret line="113" column="14" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="14" />
+            <state relative-caret-position="460">
+              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -287,6 +220,7 @@
       <find>&quot;title&quot;</find>
       <find>,{}</find>
       <find>quartz</find>
+      <find>http</find>
     </findStrings>
     <dirStrings>
       <dir>D:\mygit\learn_javagit\Learn_Java\basic\src\main\java\com</dir>
@@ -345,10 +279,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/jsonparse/RemoveFeed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/newscontent.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/jsonparse/IncludeFeed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/BaiduNews.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -387,16 +321,16 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="basic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.slf4j:slf4j-log4j12:1.7.23" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="cn.edu.hfut.dmic.webcollector:WebCollector:2.73-alpha" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="1296" />
-    <option name="height" value="1408" />
+    <option name="x" value="-8" />
+    <option name="width" value="1295" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -420,7 +354,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -473,10 +406,22 @@
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
               <item name="baidunewsspider" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="baidunewsspider" type="462c0819:PsiDirectoryNode" />
+              <item name="jsonparse" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -488,12 +433,12 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;PSI&#9;JAVA://sun.java2d.marlin.Stroker#sOutCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547716704624" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547807223111" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../xiaomi" />
+    <property name="last_opened_file_path" value="D:/JAVA/boilerpipe-1.2.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -520,7 +465,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NewsContent">
+  <component name="RunManager" selected="Application.BaiduNews">
     <configuration name="BaiduNews" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spiders.baidunewsspider.BaiduNews" />
       <module name="basic" />
@@ -609,8 +554,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NewsContent" />
         <item itemvalue="Application.BaiduNews" />
+        <item itemvalue="Application.NewsContent" />
         <item itemvalue="Application.FastjsonExample" />
         <item itemvalue="Application.FileExample" />
         <item itemvalue="Application.IoExample" />
@@ -657,12 +602,16 @@
       <workItem from="1547260233844" duration="27000" />
       <workItem from="1547688677102" duration="21663000" />
       <workItem from="1547715532367" duration="716000" />
-      <workItem from="1547716283462" duration="324000" />
+      <workItem from="1547716283462" duration="1135000" />
+      <workItem from="1547718216418" duration="652000" />
+      <workItem from="1547719148418" duration="351000" />
+      <workItem from="1547719780489" duration="822000" />
+      <workItem from="1547775793393" duration="14997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="443299000" />
+    <option name="totallyTimeSpent" value="460932000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,7 +626,7 @@
     <frame x="-8" y="-8" width="2549" height="1401" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18159904" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11410205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -686,7 +635,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32793522" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38344052" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36655948" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39919028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -695,7 +644,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32844037" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.1840836" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.18327974" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32983023" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3592233" />
@@ -722,76 +671,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/polymorphismpackage/DuoTaiDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="88" column="22" lean-forward="true" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/abstractpackage/AbstractDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/abstractpackage/AbstractDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interfacepackage/InterfaceDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chuanzhi/day1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/interfacepackage/InterfaceDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="163" column="38" lean-forward="true" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MethodDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1698">
-          <caret line="93" column="16" lean-forward="true" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ProcessControlDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="922">
-          <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/innerclasspackage/InnerclassDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/innerclasspackage/InnerclassDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/test.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -817,13 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ArgsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -916,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/FirstSpider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/JavaJDK/lib/src.zip!/java.base/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -993,6 +858,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/lib.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="113" column="14" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/FirstSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsFeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/maven/repo/com/wu-man/jreadability/1.3/jreadability-1.3.jar!/com/wuman/jreadability/Readability.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://MAVEN/main:basic:1.0">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1008,8 +922,6 @@
             <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.5.6/commons-codec:commons-codec:jar:1.10</node>
             <node x="" y="">commons-logging:commons-logging:jar:1.1.1</node>
             <node x="" y="">log4j:log4j:jar:1.2.17</node>
-            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.23</node>
-            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.23/org.slf4j:slf4j-api:jar:1.7.23</node>
             <node x="" y="">mysql:mysql-connector-java:jar:5.1.36</node>
             <node x="" y="">com.google.code.gson:gson:jar:2.2.4</node>
             <node x="" y="">com.alibaba:fastjson:jar:1.2.31</node>
@@ -1032,24 +944,110 @@
             <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.3/c3p0:c3p0:jar:0.9.1.1</node>
             <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.3/org.slf4j:slf4j-api:jar:1.7.7</node>
             <node x="" y="">org.quartz-scheduler:quartz-jobs:jar:2.2.3</node>
+            <node x="" y="">cn.edu.hfut.dmic.webcollector:WebCollector:jar:2.73-alpha</node>
+            <node x="" y="">cn.edu.hfut.dmic.webcollector:WebCollector:jar:2.73-alpha/org.rocksdb:rocksdbjni:jar:5.14.2</node>
+            <node x="" y="">cn.edu.hfut.dmic.webcollector:WebCollector:jar:2.73-alpha/com.google.code.gson:gson:jar:2.8.5</node>
+            <node x="" y="">cn.edu.hfut.dmic.webcollector:WebCollector:jar:2.73-alpha/org.jsoup:jsoup:jar:1.11.3</node>
+            <node x="" y="">cn.edu.hfut.dmic.webcollector:WebCollector:jar:2.73-alpha/com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3</node>
+            <node x="" y="">cn.edu.hfut.dmic.webcollector:WebCollector:jar:2.73-alpha/com.sleepycat:je:jar:5.0.73</node>
+            <node x="" y="">cn.edu.hfut.dmic.webcollector:WebCollector:jar:2.73-alpha/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">cn.edu.hfut.dmic.webcollector:WebCollector:jar:2.73-alpha/org.slf4j:slf4j-log4j12:jar:1.7.25</node>
+            <node x="" y="">cn.edu.hfut.dmic.webcollector:WebCollector:jar:2.73-alpha/org.slf4j:slf4j-log4j12:jar:1.7.25/org.slf4j:slf4j-api:jar:1.6.4</node>
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0759404388714733" x="782.0" y="57.0" />
+          <settings layout="Hierarchic Group" zoom="1.0330049261083742" x="1208.0" y="188.0" />
           <SelectedNodes />
           <Categories />
-          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/lib.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="128" column="19" lean-forward="true" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ArgsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/StringDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3480">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ArrayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2002">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/boilerpipe-1.2.0/boilerpipe-sources-1.2.0.jar!/de/l3s/boilerpipe/extractors/ArticleExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/maven/repo/cn/edu/hfut/dmic/webcollector/WebCollector/2.73-alpha/WebCollector-2.73-alpha.jar!/cn/edu/hfut/dmic/webcollector/model/CrawlDatum.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3302">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/maven/repo/cn/edu/hfut/dmic/webcollector/WebCollector/2.73-alpha/WebCollector-2.73-alpha.jar!/cn/edu/hfut/dmic/webcollector/conf/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="153" column="54" lean-forward="true" selection-start-line="153" selection-start-column="54" selection-end-line="153" selection-end-column="54" />
+          <folding>
+            <element signature="e#4589#4590#0" expanded="true" />
+            <element signature="e#4650#4651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/maven/repo/cn/edu/hfut/dmic/webcollector/WebCollector/2.73-alpha/WebCollector-2.73-alpha.jar!/cn/edu/hfut/dmic/webcollector/plugin/net/OkHttpRequester.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/maven/repo/cn/edu/hfut/dmic/webcollector/WebCollector/2.73-alpha/WebCollector-2.73-alpha.jar!/cn/edu/hfut/dmic/contentextractor/ContentExtractor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="439" column="25" selection-start-line="439" selection-start-column="25" selection-end-line="439" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/maven/repo/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/HttpEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/maven/repo/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/HttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/BaiduNews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="342">
+          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1058,50 +1056,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/jsonparse/IncludeFeed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsFeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/advance/FastjsonExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2080">
-          <caret line="113" column="14" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="14" />
+        <state relative-caret-position="680">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1110,18 +1066,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="460">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1212,7 +1161,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>repo</last-edited>
+          <last-edited>boilerpipe-1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

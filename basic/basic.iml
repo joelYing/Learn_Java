@@ -40,5 +40,11 @@
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz:2.2.3" level="project" />
     <orderEntry type="library" name="Maven: c3p0:c3p0:0.9.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz-jobs:2.2.3" level="project" />
+    <orderEntry type="library" name="Maven: cn.edu.hfut.dmic.webcollector:WebCollector:2.73-alpha" level="project" />
+    <orderEntry type="library" name="Maven: org.rocksdb:rocksdbjni:5.14.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.11.3" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.juniversalchardet:juniversalchardet:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: com.sleepycat:je:5.0.73" level="project" />
+    <orderEntry type="library" name="boilerpipe-1.2" level="project" />
   </component>
 </module>

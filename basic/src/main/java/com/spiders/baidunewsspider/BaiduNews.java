@@ -46,8 +46,25 @@ public class BaiduNews {
                 e.printStackTrace();
             }
         }
-//        RemoveFeed.removefeed(result)
-        IncludeFeed.includeFeed(result);
+        // RemoveFeed.removefeed(result)
+
+        // 得到每一页的 文章的 url
+        String[] urlList = IncludeFeed.includeFeed(result);
+
+        // 提取正文
+        for (String url : urlList) {
+            if (url != null) {
+                System.out.println(url);
+                NewsContent.newsContent(url);
+            }
+//            try
+//            {
+//                Thread.sleep(1000);
+//            }
+//            catch(Exception ignored){
+//
+//            }
+        }
     }
 
     public static void main(String[] args) {
