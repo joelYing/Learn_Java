@@ -1,11 +1,14 @@
 package com.spiders.baidunewsspider;
+import com.spiders.baidunewsspider.bean.NewsData;
+import com.spiders.baidunewsspider.database.SaveMysql;
 import com.spiders.baidunewsspider.jsonparse.IncludeFeed;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.Iterator;
+import java.util.List;
 
 /**
  * @PackageName com.spiders
@@ -49,22 +52,26 @@ public class BaiduNews {
         // RemoveFeed.removefeed(result)
 
         // 得到每一页的 文章的 url
-        String[] urlList = IncludeFeed.includeFeed(result);
+        List<NewsData> infoList = IncludeFeed.includeFeed(result);
 
-        // 提取正文
-        for (String url : urlList) {
-            if (url != null) {
-                System.out.println(url);
-                NewsContent.newsContent(url);
+        // 提取正文 在循环遍历一个集合时，删除某个元素会引起
+        // java.util.ConcurrentModificationException
+        // 原因在于 迭代器的 modCount 和 expectedModCount 的值不一致，解决办法之一可以使用 iterator
+
+        Iterator<NewsData> iterator = infoList.iterator();
+        while (iterator.hasNext()) {
+            NewsData info = iterator.next();
+            if (info.getTitle()  != null) {
+                System.out.println(info.getUrl());
+                String content = NewsContent.newsContent(info.getUrl());
+                info.setContent(content);
+            } else {
+                iterator.remove();
             }
-//            try
-//            {
-//                Thread.sleep(1000);
-//            }
-//            catch(Exception ignored){
-//
-//            }
         }
+
+        SaveMysql.insert(infoList);
+
     }
 
     public static void main(String[] args) {

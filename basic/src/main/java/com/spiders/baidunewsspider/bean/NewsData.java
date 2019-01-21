@@ -23,6 +23,15 @@ public class NewsData {
     private int relate;
     private int same;
     private int pn;
+    private String content;
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
 
     public long getTime() {
         return time;

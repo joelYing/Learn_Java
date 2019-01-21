@@ -2,7 +2,6 @@ package com.example.database;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.*;
 import java.text.ParseException;
@@ -39,8 +38,6 @@ public class MysqlDemo {
             mysql_url = properties.getProperty("url");
             mysql_user = properties.getProperty("user");
             mysql_password = properties.getProperty("password");
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
