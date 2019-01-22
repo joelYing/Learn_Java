@@ -9,6 +9,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * @PackageName com.spiders
@@ -20,13 +21,13 @@ public class BaiduNews {
 
     public static String baiduNewsUrl = "http://news.baidu.com/ns?word=%s&pn=%s&cl=2&ct=0&tn=json&rn=20&ie=utf-8&bt=0&et=0&clk=sortbytime";
 
-    public static void getNewsUrl() {
+    public static void getNewsUrl(String kw, String page) {
         StringBuilder result = new StringBuilder();
         String line = null;
         BufferedReader br = null;
 
         try {
-            URL jsonUrl = new URL(String.format(baiduNewsUrl, "张小龙微信公开课", "0"));
+            URL jsonUrl = new URL(String.format(baiduNewsUrl, kw, page));
 
             URLConnection urlConnection = jsonUrl.openConnection();
             // 需要带上 user-agent
@@ -75,6 +76,16 @@ public class BaiduNews {
     }
 
     public static void main(String[] args) {
-        getNewsUrl();
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Input kw : ");
+        String kw = sc.nextLine();
+
+        System.out.println("Input page : ");
+        int page = sc.nextInt();
+
+        for (int i = 0; i < page; i++) {
+            getNewsUrl(kw, Integer.toString(i * 20));
+        }
     }
 }

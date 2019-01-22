@@ -1,6 +1,7 @@
 package com.spiders.baidunewsspider;
 
 import cn.edu.hfut.dmic.contentextractor.ContentExtractor;
+import com.spiders.baidunewsspider.charsetType.GetCharset2;
 import org.apache.http.*;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -22,6 +23,7 @@ import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URL;
 import java.util.Date;
 import java.util.List;
 
@@ -66,6 +68,7 @@ public class NewsContent {
                         "Chrome/36.0.1985.125 Safari/537.36")
                 .build();
 
+        // 解决 set-cookie 的警告
         Registry<CookieSpecProvider> cookieSpecProviderRegistry = RegistryBuilder.<CookieSpecProvider>create()
                 .register("myCookieSpec", context -> new MyCookieSpec()).build();
 
@@ -76,10 +79,20 @@ public class NewsContent {
         httpGet.setConfig(RequestConfig.custom().setCookieSpec("myCookieSpec").build());
 
         try {
+            // 获取返回的 response 转换成 String
             CloseableHttpResponse httpResponse = httpClient.execute(httpGet);
             String response = EntityUtils.toString(httpResponse.getEntity(), "UTF-8");
 
-            content = ContentExtractor.getContentByHtml(response);
+            // 第一种方式获取 编码格式
+            // String encode = GetCharset2.getUrlCharset(newsUrl)
+
+            // 第二种方式获取 编码格式
+            URL url = new URL(newsUrl);
+            String encode = GetCharset2.getUrlEncode(url);
+
+            // 提取正文框架
+            content = ContentExtractor.getContentByHtml(response, encode);
+            System.out.println(content);
         } catch (Exception e) {
             System.out.println("解析失败");
         }

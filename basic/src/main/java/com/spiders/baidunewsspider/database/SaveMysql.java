@@ -41,23 +41,35 @@ public class SaveMysql {
 
         try {
             connection = DriverManager.getConnection(mysql_url, mysql_user, mysql_password);
-            // PrepareStatement是 Statement的子接口，可以传入带占位符的 SQL语句，提供了补充占位符变量的方法,还可以防止SQL注入
+            // PrepareStatement是 Statement的子接口，可以传入带占位符的 SQL语句，提供了补充占位符变量的方法，还可以防止SQL注入
             PreparedStatement pst = null;
             String sql = "INSERT INTO `baidunews_java`(`title`,`url`,`source`,`time`, `content`) VALUES (?, ?, ?, ?, ?)";
-
             pst = connection.prepareStatement(sql);
 
             for (NewsData info : infolist) {
-                String sql_query = String.format("select `url` from `baidunews` where `url`=%s", info.getUrl());
-                // setXxx()方法设置占位符的值，索引从1开始 setLong() 存时间戳
-                pst.setString(1, info.getTitle());
-                // setString() 格式化字符串
-                pst.setString(2, info.getUrl());
-                pst.setString(3, info.getSource());
-                pst.setLong(4, info.getTime());
-                pst.setString(5, info.getContent());
-                // 执行SQL语句
-                pst.executeUpdate();
+                // 查询是否存在相同的新闻（url）
+                String querySql = "select `url` from `baidunews_java` where `url`=?";
+                PreparedStatement pst2 = connection.prepareStatement(querySql);
+                pst2.setString(1, info.getUrl());
+                ResultSet result = pst2.executeQuery();
+
+                // 不存在对应 url 的新闻就插入
+                if (!result.next()) {
+                    // setXxx()方法设置占位符的值，索引从1开始 setLong() 存时间戳
+                    pst.setString(1, info.getTitle());
+
+                    // setString() 格式化字符串
+                    pst.setString(2, info.getUrl());
+                    pst.setString(3, info.getSource());
+                    pst.setLong(4, info.getTime());
+                    pst.setString(5, info.getContent());
+
+                    // 执行SQL语句
+                    pst.executeUpdate();
+                } else {
+                    System.out.println("新闻已存在");
+                }
+                pst2.close();
             }
             System.out.println("=====");
             pst.close();
