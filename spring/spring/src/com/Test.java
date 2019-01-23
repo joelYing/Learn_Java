@@ -13,7 +13,7 @@ public class Test {
         // 创建一个Spring的IOC容器对象
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         // 从IOC容器中获取Bean实例
-        HelloWorld helloWorld = (HelloWorld) context.getBean("helloWorld");
+        HelloWorld helloWorld = (HelloWorld) context.getBean("helloWorld2");
         // 调用 sayHello() 方法
         helloWorld.sayHello();
     }

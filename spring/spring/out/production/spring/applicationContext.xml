@@ -2,8 +2,23 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-    <bean id="helloWorld" class="com.HelloWorld">
+    <!-- 注入 -->
+    <!--<bean id="helloWorld" class="com.HelloWorld">
         <property name="name" value="Spring"/>
+    </bean>-->
+
+    <!-- 使用 Spring 的构造方法 -->
+    <!-- 需要创建一个带参构造函数 -->
+    <bean id="helloWorld2" class="com.HelloWorld">
+        <constructor-arg value="Spring构造方法"/>
     </bean>
+
+    <!-- 注入对象引用 -->
+    <bean id="helloWorld3" class="com.HelloWorld">
+        <constructor-arg value="joel"/>
+        <constructor-arg ref="helloWorld2"/>
+    </bean>
+
+    <!-- 通过工厂方法创建Bean -->
+    <bean id="demo1" class="com.Demo1" factory-method="getInstance"/>
 </beans>

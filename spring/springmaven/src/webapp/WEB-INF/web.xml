@@ -15,7 +15,7 @@
     <init-param>
       <!--配置XML文件路径-->
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:spring/applicationContext.xml</param-value>
+      <param-value>classpath:src/res/spring/applicationContext.xml</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
     <async-supported>true</async-supported>
