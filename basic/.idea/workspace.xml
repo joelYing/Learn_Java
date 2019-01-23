@@ -5,16 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de3e75a5-bcbf-4e2e-a2eb-1ec11d2af1b1" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_63_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__lennart_cpdetector_1_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/charsetType/GetCharset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/charsetType/GetCharset2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/ssm/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/ssm/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/ssm/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/ssm/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/ssm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/ssm/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/ssm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/ssm/ssm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/BaiduNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/BaiduNews.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/database/SaveMysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/database/SaveMysql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletwebapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servletwebapp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring/out/production/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/spring/out/production/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/spring/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring/src/com/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/spring/src/com/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring/src/com/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/spring/src/com/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springmaven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springmaven/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springmaven/src/main/res/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springmaven/src/res/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springmaven/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springmaven/src/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/springmaven/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/springmaven/src/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,9 +86,9 @@
     <session id="1822669605">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -100,7 +110,7 @@
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,7 +119,7 @@
           <entry key="baidunews_java" value="2" />
           <entry key="class" value="12" />
           <entry key="html" value="3" />
-          <entry key="java" value="239" />
+          <entry key="java" value="245" />
           <entry key="javatest" value="1" />
           <entry key="jpg" value="2" />
           <entry key="properties" value="13" />
@@ -124,7 +134,7 @@
           <entry key="Database Element" value="3" />
           <entry key="HTML" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="239" />
+          <entry key="JAVA" value="245" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="Properties" value="13" />
           <entry key="SQL" value="6" />
@@ -136,7 +146,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="49" />
-          <entry key="java" value="66457" />
+          <entry key="java" value="66482" />
           <entry key="properties" value="123" />
           <entry key="sql" value="181" />
           <entry key="txt" value="19" />
@@ -145,7 +155,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="66457" />
+          <entry key="JAVA" value="66482" />
           <entry key="PLAIN_TEXT" value="68" />
           <entry key="Properties" value="123" />
           <entry key="SQL" value="181" />
@@ -186,36 +196,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/BaiduNews.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/jsonparse/IncludeFeed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/database/SaveMysql.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+            <state relative-caret-position="776">
+              <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -224,10 +210,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/charsetType/GetCharset2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/jsonparse/IncludeFeed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
-              <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+            <state relative-caret-position="240">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -236,10 +222,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://d730de1b-4d2a-4f04-9406-d52af38ac05a/schema/baidunews/table/baidunews_java">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsFeed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+              <folding>
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -247,8 +247,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-67">
-              <caret line="92" column="21" lean-forward="true" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+            <state relative-caret-position="578">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/BaiduNews.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -283,6 +295,7 @@
       <find>quartz</find>
       <find>http</find>
       <find>\xF2\xA3\xAC\xBC\xEF\xBF</find>
+      <find>=====</find>
     </findStrings>
     <dirStrings>
       <dir>D:\mygit\learn_javagit\Learn_Java\basic\src\main\java\com</dir>
@@ -341,10 +354,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/GetCharset2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/GetCharset.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/charsetType/GetCharset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/charsetType/GetCharset2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/database/SaveMysql.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/BaiduNews.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java" />
       </list>
     </option>
   </component>
@@ -389,7 +402,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1295" />
     <option name="height" value="1407" />
@@ -421,8 +434,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -489,6 +502,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
               <item name="baidunewsspider" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="baidunewsspider" type="462c0819:PsiDirectoryNode" />
               <item name="charsetType" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -501,6 +525,17 @@
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
               <item name="baidunewsspider" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="baidunewsspider" type="462c0819:PsiDirectoryNode" />
+              <item name="jsonparse" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -517,9 +552,9 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;PSI&#9;JAVA://sun.java2d.marlin.Stroker#sOutCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548140020176" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548224589069" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="D:/JAVA/ext" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -678,12 +713,13 @@
       <workItem from="1547719780489" duration="822000" />
       <workItem from="1547775793393" duration="15604000" />
       <workItem from="1548034799427" duration="24316000" />
-      <workItem from="1548120826917" duration="14651000" />
+      <workItem from="1548120826917" duration="15396000" />
+      <workItem from="1548223910552" duration="861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="500506000" />
+    <option name="totallyTimeSpent" value="502112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,10 +731,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2549" height="1401" extended-state="6" />
+    <frame x="-8" y="-8" width="2549" height="1401" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11570912" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116512656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -707,7 +743,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32793522" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.57877815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33601287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39919028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -885,13 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsFeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/maven/repo/com/wu-man/jreadability/1.3/jreadability-1.3.jar!/com/wuman/jreadability/Readability.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1033,21 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
           <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-          <folding>
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1108,40 +1122,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="92" column="21" lean-forward="true" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/charsetType/GetCharset2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+        <state relative-caret-position="320">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/database/SaveMysql.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsFeed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/bean/NewsData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/BaiduNews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="637">
+          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1150,8 +1163,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/jsonparse/IncludeFeed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        <state relative-caret-position="240">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/NewsContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spiders/baidunewsspider/database/SaveMysql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

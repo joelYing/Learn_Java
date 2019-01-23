@@ -91,6 +91,7 @@ public class NewsContent {
             String encode = GetCharset2.getUrlEncode(url);
 
             // 提取正文框架
+//            content = response
             content = ContentExtractor.getContentByHtml(response, encode);
             System.out.println(content);
         } catch (Exception e) {
