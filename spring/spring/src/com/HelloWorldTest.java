@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @Author joel
  * @Date 2019/1/22 17:05
  **/
-public class Test {
+public class HelloWorldTest {
     public static void main(String[] args) {
         // 创建一个Spring的IOC容器对象
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");

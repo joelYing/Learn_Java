@@ -3,9 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!-- 注入 -->
-    <!--<bean id="helloWorld" class="com.HelloWorld">
+    <bean id="helloWorld" class="com.HelloWorld">
         <property name="name" value="Spring"/>
-    </bean>-->
+    </bean>
 
     <!-- 使用 Spring 的构造方法 -->
     <!-- 需要创建一个带参构造函数 -->
@@ -20,5 +20,21 @@
     </bean>
 
     <!-- 通过工厂方法创建Bean -->
-    <bean id="demo1" class="com.Demo1" factory-method="getInstance"/>
+    <!--<bean id="demo1" class="com.Demo1" factory-method="getInstance"/>-->
+
+    <!-- 覆盖Spring默认的单例模式, 结果是两次实例化后的地址不同，（多例模式） -->
+    <bean id="demo1" class="com.Demo1" scope="prototype"/>
+
+    <!-- 初始化和销毁Bean，注入，默认使用无参构造 -->
+    <bean id="demo2" class="com.Demo2" init-method="turnOn" destroy-method="turnOff"/>
+
+    <!-- 装配集合 -->
+    <bean id="demo3" class="com.Demo3">
+        <property name="childMap">
+            <map>
+                <entry key="1" value="IOC"/>
+                <entry key="2" value="AOP"/>
+            </map>
+        </property>
+    </bean>
 </beans>
