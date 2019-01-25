@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd8ae2a-0a0e-4b6c-8d09-cfe751f564f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotationaop/AnnoAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotationaop/AnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotationaop/Melon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aop/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aop/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aop/OrangeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aop/ParamAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springannotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springjdbc/SpringJdbcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springjdbc/springjdbc.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/spring/springaop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring/springaop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aop/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aop/AopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aop/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aop/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aop/Fruits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aop/Fruits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/springaop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/springaop.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +28,36 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="springjdbc" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="springjdbc" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="springjdbc" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="springjdbc: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="763117195">
@@ -33,33 +77,45 @@
         <counts>
           <entry key="SpringLocalModels/module=spring" value="1" />
           <entry key="class" value="16" />
-          <entry key="iml" value="6" />
-          <entry key="java" value="22" />
-          <entry key="xml" value="20" />
+          <entry key="iml" value="8" />
+          <entry key="java" value="31" />
+          <entry key="springannotation" value="1" />
+          <entry key="sql" value="3" />
+          <entry key="t_account" value="1" />
+          <entry key="xml" value="31" />
           <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="16" />
-          <entry key="IDEA_MODULE" value="6" />
-          <entry key="JAVA" value="22" />
+          <entry key="Database Element" value="1" />
+          <entry key="IDEA_MODULE" value="8" />
+          <entry key="JAVA" value="31" />
+          <entry key="SQL" value="1" />
+          <entry key="Scratch" value="2" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="21" />
+          <entry key="XML" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="java" value="2011" />
-          <entry key="xml" value="930" />
+          <entry key="iml" value="4" />
+          <entry key="java" value="3498" />
+          <entry key="springannotation" value="1" />
+          <entry key="sql" value="10" />
+          <entry key="txt" value="10" />
+          <entry key="xml" value="1305" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2011" />
-          <entry key="PLAIN_TEXT" value="17" />
-          <entry key="XML" value="930" />
+          <entry key="IDEA_MODULE" value="4" />
+          <entry key="JAVA" value="3498" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="SQL" value="10" />
+          <entry key="XML" value="1306" />
         </counts>
       </usages-collector>
     </session>
@@ -67,59 +123,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aop/Advice.java">
+        <entry file="file://$PROJECT_DIR$/src/springjdbc/springjdbc.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aop/Fruits.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aop/Apple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/springaop.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="100">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/aop/AopTest.java">
+        <entry file="file://$PROJECT_DIR$/src/springjdbc/SpringJdbcTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="241">
+              <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/036e134c-3bcc-49f9-89b0-1d48f864e79b/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -155,13 +183,24 @@
         <option value="$PROJECT_DIR$/src/aop/Advice.java" />
         <option value="$PROJECT_DIR$/src/aop/Test.java" />
         <option value="$PROJECT_DIR$/src/aopspring/Fruits.java" />
-        <option value="$PROJECT_DIR$/spring.iml" />
         <option value="$PROJECT_DIR$/src/spring.xml" />
-        <option value="$PROJECT_DIR$/src/aop/Fruits.java" />
         <option value="$PROJECT_DIR$/src/aops/AopTest.java" />
-        <option value="$PROJECT_DIR$/src/springaop.xml" />
+        <option value="$PROJECT_DIR$/src/aop/AroundAdvice.java" />
+        <option value="$PROJECT_DIR$/src/aop/Fruits.java" />
         <option value="$PROJECT_DIR$/src/aop/Apple.java" />
+        <option value="$PROJECT_DIR$/src/aop/ParamAdvice.java" />
+        <option value="$PROJECT_DIR$/src/aop/Orange.java" />
+        <option value="$PROJECT_DIR$/src/aop/OrangeAdvice.java" />
         <option value="$PROJECT_DIR$/src/aop/AopTest.java" />
+        <option value="$PROJECT_DIR$/src/annotationaop/Melon.java" />
+        <option value="$PROJECT_DIR$/src/springaop.xml" />
+        <option value="$PROJECT_DIR$/src/springannotation" />
+        <option value="$PROJECT_DIR$/spring.iml" />
+        <option value="$PROJECT_DIR$/src/springannotation.xml" />
+        <option value="$PROJECT_DIR$/src/annotationaop/AnnotationTest.java" />
+        <option value="$PROJECT_DIR$/src/annotationaop/AnnoAdvice.java" />
+        <option value="$PROJECT_DIR$/src/springjdbc/springjdbc.sql" />
+        <option value="$PROJECT_DIR$/src/springjdbc/SpringJdbcTest.java" />
       </list>
     </option>
   </component>
@@ -206,24 +245,13 @@
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="autowringbean" type="462c0819:PsiDirectoryNode" />
+              <item name="springjdbc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,16 +262,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548383769442" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/aspectjweaver-1.9.2.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548405356211" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xiaomi" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -263,7 +293,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AopTest">
+  <component name="RunManager" selected="Application.SpringJdbcTest">
+    <configuration name="AnnotationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotationaop.AnnotationTest" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotationaop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aop.AopTest" />
       <module name="spring" />
@@ -290,12 +333,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.HelloWorldTest" />
+    <configuration name="SpringJdbcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springjdbc.SpringJdbcTest" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="springjdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,17 +360,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HelloWorldTest" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.DemoTest" />
       <item itemvalue="Application.AopTest" />
+      <item itemvalue="Application.AnnotationTest" />
+      <item itemvalue="Application.SpringJdbcTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringJdbcTest" />
+        <item itemvalue="Application.AnnotationTest" />
         <item itemvalue="Application.AopTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.DemoTest" />
-        <item itemvalue="Application.HelloWorldTest" />
       </list>
     </recent_temporary>
   </component>
@@ -346,16 +391,15 @@
       <workItem from="1548212284076" duration="16067000" />
       <workItem from="1548294616144" duration="18354000" />
       <workItem from="1548325283231" duration="691000" />
-      <workItem from="1548380433947" duration="2928000" />
+      <workItem from="1548380433947" duration="18281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43906000" />
+    <option name="totallyTimeSpent" value="59259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1283" height="1394" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23957482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -364,15 +408,16 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.33629748" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38722715" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32983023" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5125303" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28478965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -382,7 +427,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32951757" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32951757" />
@@ -395,28 +440,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java" />
-    <entry file="jar://$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar!/org/springframework/util/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar!/org/springframework/core/SimpleAliasRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/org/apache/commons/logging/impl/Jdk14Logger.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -587,22 +610,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="31" selection-end-line="39" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.3.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/autowringbean/Test.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -618,27 +631,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aop/Fruits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="240">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -655,28 +657,177 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aop/Apple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="400">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/springaop.xml">
+    <entry file="file://$PROJECT_DIR$/src/aop/ParamAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="260">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aop/AroundAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aop/OrangeAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/spring/springaop.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aop/AopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="520">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aop/Orange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springaop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-249">
+          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/annotationaop/AnnotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springannotation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/annotationaop/AnnoAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/annotationaop/Melon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springjdbc/springjdbc.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://036e134c-3bcc-49f9-89b0-1d48f864e79b/schema/springjdbc/table/t_account">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/036e134c-3bcc-49f9-89b0-1d48f864e79b/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springjdbc/SpringJdbcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -698,7 +849,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (spring)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -733,12 +884,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring</last-edited>
+          <last-edited>Spring|spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

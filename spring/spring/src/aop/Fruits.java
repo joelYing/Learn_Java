@@ -9,5 +9,6 @@ public interface Fruits {
     /**
      * price
      */
-    void price();
+    void changePrice(int price);
+    int getPrice();
 }

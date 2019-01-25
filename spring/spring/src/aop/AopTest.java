@@ -12,10 +12,17 @@ public class AopTest {
     private static void run1() {
         ApplicationContext ac = new ClassPathXmlApplicationContext("springaop.xml");
         Fruits fruits = (Fruits) ac.getBean("apple");
-        fruits.price();
+        fruits.changePrice(12);
+        System.out.println("now the price is : " + fruits.getPrice());
+    }
+
+    private static void run2() {
+        ApplicationContext ac = new ClassPathXmlApplicationContext("springaop.xml");
+        Orange orange = (Orange) ac.getBean("orangeAdvice");
+        orange.wantChangePrice();
     }
 
     public static void main(String[] args) {
-        run1();
+        run2();
     }
 }

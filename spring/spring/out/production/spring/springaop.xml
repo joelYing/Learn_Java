@@ -5,14 +5,46 @@
        xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <bean id="apple" class="aop.Apple"/>
-    <bean id="advice" class="aop.Advice" />
+    <!--<bean id="apple" class="aop.Apple"/>-->
 
+    <!--<bean id="advice" class="aop.Advice" />-->
+    <!-- 代理对象实现了至少一个接口时，默认使用JDK动态创建代理对象。当代理对象没有实现任何接口时就是使用CGLIB -->
+    <!--<aop:config>-->
+        <!--&lt;!&ndash; 切面 &ndash;&gt;-->
+        <!--<aop:aspect ref="advice">-->
+            <!--&lt;!&ndash; 切点 &ndash;&gt;-->
+            <!--<aop:pointcut id="price" expression="execution(* aop.Apple.price(..))"/>-->
+            <!--<aop:before pointcut-ref="price" method="changeBefore"/>-->
+            <!--<aop:after pointcut-ref="price" method="changeAfter"/>-->
+            <!--<aop:after-throwing pointcut-ref="price" method="errorAfter"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+    <!--<bean id="aroundAdvice" class="aop.AroundAdvice"/>-->
+    <!--<aop:config>-->
+        <!--<aop:aspect ref="aroundAdvice">-->
+            <!--<aop:pointcut id="price" expression="execution(* aop.Apple.price(..))"/>-->
+            <!--&lt;!&ndash; 声明环绕通知 &ndash;&gt;-->
+            <!--<aop:around method="watchPrice" pointcut-ref="price"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+    <!--&lt;!&ndash; 通知类 &ndash;&gt;-->
+    <!--<bean id="paramAdvice" class="aop.ParamAdvice"/>-->
+    <!--&lt;!&ndash; 目标类 &ndash;&gt;-->
+    <!--<bean id="apple" class="aop.Apple"/>-->
+    <!--<aop:config>-->
+        <!--<aop:aspect ref="paramAdvice">-->
+            <!--<aop:pointcut id="fruits" expression="execution(* aop.Fruits.changePrice(int)) and args(price)"/>-->
+            <!--<aop:after method="changePrice" pointcut-ref="fruits" arg-names="price"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+    <!-- 通过切面引入新功能 -->
+    <bean id="orangeAdvice" class="aop.OrangeAdvice"/>
     <aop:config>
-        <aop:aspect ref="advice">
-            <aop:before pointcut="execution(* aop.Apple.price(..))" method="changeBefore"/>
-            <aop:after pointcut="execution(* aop.Apple.price(..))" method="changeAfter"/>
-            <aop:after-throwing pointcut="execution(* aop.Apple.price(..))" method="errorAfter"/>
+        <aop:aspect>
+            <aop:declare-parents types-matching="aop.Fruits" implement-interface="aop.Orange" delegate-ref="orangeAdvice"/>
         </aop:aspect>
     </aop:config>
 </beans>
