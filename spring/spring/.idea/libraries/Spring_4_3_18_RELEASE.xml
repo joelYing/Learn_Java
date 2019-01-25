@@ -21,6 +21,7 @@
       <root url="jar://$PROJECT_DIR$/lib/spring-tx-4.3.18.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-test-4.3.18.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/aspectjweaver-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.14.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
