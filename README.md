@@ -224,6 +224,10 @@ Caused by: java.lang.ClassNotFoundException: org.aspectj.weaver.reflect.Reflecti
 导包方式：下载后，移动到项目所在lib目录，点击 Project Structure -> Libraries -> 点击加号添加目录下的jar包 
 
 ### Spring JDBC 连接报错
+要注意项目中是否有 **mysql-connector-java-xxx.jar** 的驱动，没有则需下载  
+下载 : <https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.14>
+
+
 ```
 Exception in thread "main" org.springframework.jdbc.CannotGetJdbcConnectionException: 
 Could not get JDBC Connection; nested exception is java.sql.SQLException: The server time zone value 'ÖÐ¹ú±ê×¼Ê±¼ä' is unrecognized or represents more than one time zone. 
