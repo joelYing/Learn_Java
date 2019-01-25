@@ -34,8 +34,9 @@ public class SpringJdbcTest {
         jdbcTemplate.update("insert into t_account values (14,?,?)", "Spring", 998.0);
     }
 
+
     private static void run2() {
-        
+
     }
 
     public static void main(String[] args) {

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd8ae2a-0a0e-4b6c-8d09-cfe751f564f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/springJDBC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/036e134c-3bcc-49f9-89b0-1d48f864e79b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springjdbc/SpringJdbcTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/springjdbc/SpringJdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/springjdbc/SpringJdbcTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,7 +62,7 @@
           <entry key="SpringLocalModels/module=spring" value="1" />
           <entry key="class" value="16" />
           <entry key="iml" value="8" />
-          <entry key="java" value="31" />
+          <entry key="java" value="32" />
           <entry key="springannotation" value="1" />
           <entry key="sql" value="3" />
           <entry key="t_account" value="2" />
@@ -78,7 +75,7 @@
           <entry key="CLASS" value="16" />
           <entry key="Database Element" value="2" />
           <entry key="IDEA_MODULE" value="8" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="32" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="2" />
           <entry key="UML" value="1" />
@@ -89,7 +86,7 @@
         <counts>
           <entry key="dummy" value="17" />
           <entry key="iml" value="4" />
-          <entry key="java" value="3582" />
+          <entry key="java" value="3681" />
           <entry key="springannotation" value="1" />
           <entry key="sql" value="10" />
           <entry key="txt" value="10" />
@@ -99,7 +96,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="3582" />
+          <entry key="JAVA" value="3681" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="SQL" value="10" />
           <entry key="XML" value="1526" />
@@ -118,15 +115,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/springjdbc/SpringJdbcTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="549">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/springjdbc/SpringJdbcTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/springjdbc/springjdbc.sql" />
         <option value="$PROJECT_DIR$/src/springJDBC.xml" />
         <option value="$PROJECT_DIR$/src/springjdbc/SpringJdbcTest.java" />
+        <option value="$PROJECT_DIR$/src/springjdbc/SpringJdbcTest2.java" />
       </list>
     </option>
   </component>
@@ -255,9 +265,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548409890583" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548412361750" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.14.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -383,18 +396,18 @@
       <workItem from="1548212284076" duration="16067000" />
       <workItem from="1548294616144" duration="18354000" />
       <workItem from="1548325283231" duration="691000" />
-      <workItem from="1548380433947" duration="23694000" />
+      <workItem from="1548380433947" duration="24677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64672000" />
+    <option name="totallyTimeSpent" value="65655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1283" height="1394" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23957482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23957482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,7 +417,7 @@
       <window_info anchor="bottom" id="Database Console" weight="0.33629748" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32983023" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27970898" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27970898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28478965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,13 +446,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -803,12 +809,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/springjdbc/SpringJdbcTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        <state relative-caret-position="549">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springjdbc/SpringJdbcTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
