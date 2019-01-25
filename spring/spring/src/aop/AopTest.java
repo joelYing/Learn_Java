@@ -11,8 +11,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class AopTest {
     private static void run1() {
         ApplicationContext ac = new ClassPathXmlApplicationContext("springaop.xml");
-        Apple apple = (Apple) ac.getBean("apple");
-        apple.price();
+        Fruits fruits = (Fruits) ac.getBean("apple");
+        fruits.price();
     }
 
     public static void main(String[] args) {
