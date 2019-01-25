@@ -10,9 +10,9 @@
 
     <aop:config>
         <aop:aspect ref="advice">
-            <aop:before pointcut="execution(* aop.Apple.price())" method="changeBefore"/>
-            <aop:after pointcut="execution(* aop.Apple.price())" method="changeAfter"/>
-            <aop:after-throwing pointcut="execution(* aop.Apple.price())" method="errorAfter"/>
+            <aop:before pointcut="execution(* aop.Apple.price(..))" method="changeBefore"/>
+            <aop:after pointcut="execution(* aop.Apple.price(..))" method="changeAfter"/>
+            <aop:after-throwing pointcut="execution(* aop.Apple.price(..))" method="errorAfter"/>
         </aop:aspect>
     </aop:config>
 </beans>
