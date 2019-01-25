@@ -225,17 +225,18 @@ Caused by: java.lang.ClassNotFoundException: org.aspectj.weaver.reflect.Reflecti
 
 ### Spring JDBC 连接报错
 ```
-Exception in thread "main" org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: The server time zone value 'ÖÐ¹ú±ê×¼Ê±¼ä' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+Exception in thread "main" org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Could not get JDBC Connection; nested exception is java.sql.SQLException: The server time zone value 'ÖÐ¹ú±ê×¼Ê±¼ä' is unrecognized or represents more than one time zone. 
+You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
 ```
 
-```
 这都是因为安装mysql的时候时区设置的不正确 mysql默认的是美国的时区，而我们中国大陆要比他们迟8小时，采用+8:00格式  
 
 使用的数据库是MySQL，从上面图看出SpringBoot2.1在你没有指定MySQL驱动版本的情况下它自动依赖的驱动是8.0.12很高的版本  
 这是由于数据库和系统时区差异所造成的，在jdbc连接的url后面加上serverTimezone=GMT即可解决问题，如果需要使用gmt+8时区，需要写成GMT%2B8，否则会被解析为空。  
-再一个解决办法就是使用**低版本的MySQL jdbc驱动**，5.1.28不会存在时区的问题。
+再一个解决办法就是使用**低版本的MySQL jdbc驱动**，5.1.28不会存在时区的问题。  
 
-like : **jdbc:mysql:///springjdbc?serverTimezone=GMT%2B8**
+like : **jdbc:mysql:///springjdbc?serverTimezone=GMT%2B8**  
 
-参考 : <https://www.cnblogs.com/smiler/p/9983146.html>
-```
+参考 : <https://www.cnblogs.com/smiler/p/9983146.html>  
+
