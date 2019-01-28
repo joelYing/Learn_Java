@@ -1,7 +1,6 @@
 package springjdbc;
 
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowCallbackHandler;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import java.sql.ResultSet;
