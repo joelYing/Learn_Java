@@ -244,3 +244,11 @@ like : **jdbc:mysql:///springjdbc?serverTimezone=GMT%2B8**
 
 参考 : <https://www.cnblogs.com/smiler/p/9983146.html>  
 
+### 使用阿里巴巴的 druid 连接 mysql 报错
+```
+报错 : Cannot resolve com.mysq.jdbc.Connection.ping method. Will use 'SELECT 1' instead...
+```
+
+```
+原因是数据库驱动版本不合适，本来为 8.0.14 ，后下载 mysql-connector-java-5.1.47 ，更改后即可解决，此时也不用考虑时区问题
+```
