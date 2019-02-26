@@ -1,5 +1,6 @@
 package com.example.jdk;
 
+import java.sql.Timestamp;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -132,10 +133,18 @@ public class DateExample {
         System.out.println("===== function =====");
     }
 
+    public static void timestamptest() {
+        Timestamp t = new Timestamp(System.currentTimeMillis());
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+        System.out.println(Timestamp.valueOf(df.format(t)));
+    }
+
     public static void main(String[] args) {
 //        date();
 //        timezone();
 //        simpleDateFormat();
         function();
+//        timestamptest();
     }
 }
