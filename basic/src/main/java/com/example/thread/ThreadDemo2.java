@@ -8,11 +8,15 @@ package com.example.thread;
 public class ThreadDemo2 {
     public static void main(String[] args) {
         /*
-        多线程两种实现方式 继承Thread 实现Runnable
-        区别：
-            1、继承Thread类，不能实现资源共享
-            2、避免Java单继承特性带来的局限
-            3、增强程序健壮性
+        实现Runnable接口比继承Thread类所具有的优势：
+
+        1）：适合多个相同的程序代码的线程去处理同一个资源
+
+        2）：可以避免java中的单继承的限制
+
+        3）：增加程序的健壮性，代码可以被多个线程共享，代码和数据独立
+
+        4）：线程池只能放入实现Runable或callable类线程，不能直接放入继承Thread的类
          */
 
 //        for (int i = 0; i < 5; i++) {
