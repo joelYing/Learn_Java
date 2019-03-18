@@ -7,6 +7,7 @@ import java.io.Serializable;
  * @Author joel
  * @Date 2019/1/30 11:36
  **/
+
 public class Customer implements Serializable {
     private long id;
     private String name;
